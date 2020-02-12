@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8dac206-8a98-40b8-8e81-f1224ba3e91e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络编程进阶&amp;数据库开发/test_a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络编程进阶&amp;数据库开发/04 练习题/02 基于多线程实现并发的套接字通信/客户端.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络编程进阶&amp;数据库开发/04 练习题/02 基于多线程实现并发的套接字通信/服务端.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络编程进阶&amp;数据库开发/04 练习题/02 练习题.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/网络编程进阶&amp;数据库开发/04 练习题.py" beforeDir="false" afterPath="$PROJECT_DIR$/网络编程进阶&amp;数据库开发/04 练习题/01 练习题.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,28 +23,21 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/网络编程进阶&amp;数据库开发/03 Process对象的其它的属性或方法.py">
+        <entry file="file://$PROJECT_DIR$/网络编程进阶&amp;数据库开发/04 练习题/02 基于多线程实现并发的套接字通信/服务端.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="101" column="13" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
-              <folding>
-                <element signature="e#2185#2220#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/网络编程进阶&amp;数据库开发/04 练习题.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="608">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/网络编程进阶&amp;数据库开发/test_a">
+        <entry file="file://$USER_HOME$/Desktop/listen_greater_10.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/网络编程进阶&amp;数据库开发/04 练习题/02 基于多线程实现并发的套接字通信/客户端.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -65,6 +60,9 @@
         <option value="$PROJECT_DIR$/网络编程进阶&amp;数据库开发/02 查看进程的pid 和ppid.py" />
         <option value="$PROJECT_DIR$/网络编程进阶&amp;数据库开发/03 Process对象的其它的属性或方法.py" />
         <option value="$PROJECT_DIR$/网络编程进阶&amp;数据库开发/04 练习题.py" />
+        <option value="$PROJECT_DIR$/网络编程进阶&amp;数据库开发/04 练习题/02 练习题.py" />
+        <option value="$PROJECT_DIR$/网络编程进阶&amp;数据库开发/04 练习题/02 基于多线程实现并发的套接字通信/客户端.py" />
+        <option value="$PROJECT_DIR$/网络编程进阶&amp;数据库开发/04 练习题/02 基于多线程实现并发的套接字通信/服务端.py" />
       </list>
     </option>
   </component>
@@ -89,11 +87,6 @@
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="网络编程进阶&amp;数据库开发" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -106,6 +99,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\python\网络编程进阶&amp;数据库开发\04 练习题" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -199,7 +197,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络编程进阶&amp;数据库开发/04 练习题.py" />
+      <option name="SCRIPT_NAME" value="D:\python\网络编程进阶&amp;数据库开发\04 练习题\01 练习题.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -229,12 +227,20 @@
       <updated>1581417945681</updated>
       <workItem from="1581417948038" duration="6476000" />
       <workItem from="1581475219555" duration="639000" />
-      <workItem from="1581477239068" duration="3014000" />
+      <workItem from="1581477239068" duration="5193000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;新增了一个test文件&quot;">
+      <created>1581489337216</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581489337216</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10129000" />
+    <option name="totallyTimeSpent" value="12308000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="0" width="1456" height="1448" extended-state="0" />
@@ -243,8 +249,8 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32978722" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -264,6 +270,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;新增了一个test文件&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;新增了一个test文件&quot;" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/网络编程进阶&amp;数据库开发/01 开启子进程的两种方式.py">
@@ -286,6 +296,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/网络编程进阶&amp;数据库开发/test_a">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络编程进阶&amp;数据库开发/04 练习题/01 练习题.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/网络编程进阶&amp;数据库开发/03 Process对象的其它的属性或方法.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="870">
@@ -296,14 +316,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/网络编程进阶&amp;数据库开发/04 练习题.py">
+    <entry file="file://$PROJECT_DIR$/网络编程进阶&amp;数据库开发/04 练习题/02 练习题.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="228">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/网络编程进阶&amp;数据库开发/test_a">
+    <entry file="file://$PROJECT_DIR$/网络编程进阶&amp;数据库开发/04 练习题/02 基于多线程实现并发的套接字通信/客户端.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络编程进阶&amp;数据库开发/04 练习题/02 基于多线程实现并发的套接字通信/服务端.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/listen_greater_10.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
