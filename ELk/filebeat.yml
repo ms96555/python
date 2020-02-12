@@ -1,0 +1,43 @@
+filebeat.config.modules:
+  path: ${path.config}/modules.d/*.yml
+  reload.enabled: false
+setup.template.settings:
+  index.number_of_shards: 3
+setup.kibana:
+processors:
+  - add_host_metadata: ~
+  - add_cloud_metadata: ~
+filebeat.inputs:
+- type: log
+  enabled: true
+  paths:
+    - /var/log/messages
+  fields:
+    cld_20_ui_cc_nginx: messages
+    fields_under_root: true
+  tags: ["syslog"]
+- type: log
+  enabled: true
+  paths:
+    - /opt/lnmp/nginx/logs/apiApi_cc.log
+    - /opt/lnmp/nginx/logs/webUI_cc.log
+  json.keys_under_root: true
+  json.overwrite_keys: true
+  fields:
+    cld_20_ui_cc_nginx: nginx-access
+    fields_under_root: true
+  tags: ["nginx-access_cld_20"]
+- type: log
+  enabled: true
+  paths:
+    - /opt/lnmp/nginx/logs/nginx_error.log
+    - /opt/lnmp/nginx/logs/error.log*
+  fields:
+    cld_20_ui_cc_nginx: nginx-error
+    fields_under_root: true
+  tags: ["nginx-error"]
+output.redis:
+  hosts: ["172.31.3.15"]
+  port: "17788"
+  key: "*"
+  password: APPLE!@#++--123
