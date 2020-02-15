@@ -9,7 +9,7 @@ from multiprocessing import Process, JoinableQueue
 import time
 
 def producer(q):
-    for i in range(4):
+    for i in range(1,4):
         res = '包子%s' % i
         time.sleep(2)
         print('生产者生产了%s' % res)
