@@ -9,7 +9,7 @@ from multiprocessing import Process,Lock
 import time
 
 def task(name,mutex):
-    mutex.acquire()     #这里加锁  
+    mutex.acquire()     #这里加锁
     print('%s 1'%name)
     time.sleep(1)
     print('%s 2'%name)
