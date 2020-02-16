@@ -429,6 +429,7 @@ def zabbix():
         "method": "host.create",
         "params": {
             "host": hostname,
+            "name": alias_name,
             "interfaces": [{
                 "type": 1,
                 "main": 1,
@@ -461,7 +462,7 @@ import socket
 import subprocess
 hostName = socket.gethostname()
 uname = hostName.split(".")[0].split('ip-')[1].replace('-','.')
-redis_ip = %s
+redis_ip = '%s'
 r = redis.Redis(host=redis_ip, port=6379,db=0,decode_responses=True)
 class RedisHelper:
     def __init__(self):
@@ -491,7 +492,7 @@ while True:
         for i in tuple_list:
             print( i.split(':')[0])
             if uname == i.split(':')[0] and r.exists(i) != 1:
-                os.system('/opt/zabbix_server/agentd-shell/politeness_docker.sh' +" " + i.split(':')[1] + " " + i.split(':')[0] + " " + %s)
+                os.system('/opt/zabbix_server/agentd-shell/politeness_docker.sh' +" " + i.split(':')[1] + " " + i.split(':')[0] + " " + '%s')
                 r.set(i,'1',ex=60,nx=True)
         node_id = []''' % (zabbix_listen_ip, zabbix_site)
             with open('/opt/zabbix_server/agentd-shell/listen_greater_10.py', 'w', encoding='utf-8') as f:
@@ -510,85 +511,83 @@ def elk():
     filebeat_site_api = load_dict["initialize"]["b,站点配置"]
 
     msg_nginx = '''filebeat.config.modules:
-      path: ${path.config}/modules.d/*.yml
-      reload.enabled: false
-    setup.template.settings:
-      index.number_of_shards: 3
-    setup.kibana:
-    processors:
-      - add_host_metadata: ~
-      - add_cloud_metadata: ~
-    filebeat.inputs:
-    - type: log
-      enabled: true
-      paths:
-        - /var/log/messages
-      fields:
-        %s: messages
-        fields_under_root: true
-      tags: ["syslog"]
-    - type: log
-      enabled: true
-      paths:
-        - /opt/lnmp/nginx/logs/apiApi_%s.log
-        - /opt/lnmp/nginx/logs/webUI_%s.log
-      json.keys_under_root: true
-      json.overwrite_keys: true
-      fields:
-        %s: nginx-access
-        fields_under_root: true
-      tags: ["nginx-access_cld_%s"]
-    - type: log
-      enabled: true
-      paths:
-        - /opt/lnmp/nginx/logs/nginx_error.log
-        - /opt/lnmp/nginx/logs/error.log*
-      fields:
-        %s: nginx-error
-        fields_under_root: true
-      tags: ["nginx-error"]
-    output.redis:
-      hosts: ["172.31.3.15"]
-      port: "17788"
-      key: "*"
-      password: APPLE!@#++--123''' % (
-        filebeat_api_name, filebeat_site, filebeat_site, filebeat_api_name, filebeat_cld, filebeat_api_name)
+  path: ${path.config}/modules.d/*.yml
+  reload.enabled: false
+setup.template.settings:
+  index.number_of_shards: 3
+setup.kibana:
+processors:
+  - add_host_metadata: ~
+  - add_cloud_metadata: ~
+filebeat.inputs:
+- type: log
+  enabled: true
+  paths:
+    - /var/log/messages
+  fields:
+    %s: messages
+    fields_under_root: true
+  tags: ["syslog"]
+- type: log
+  enabled: true
+  paths:
+    - /opt/lnmp/nginx/logs/apiApi_%s.log
+    - /opt/lnmp/nginx/logs/webUI_%s.log
+  json.keys_under_root: true
+  json.overwrite_keys: true
+  fields:
+    %s: nginx-access
+    fields_under_root: true
+  tags: ["nginx-access_cld_%s"]
+- type: log
+  enabled: true
+  paths:
+    - /opt/lnmp/nginx/logs/nginx_error.log
+    - /opt/lnmp/nginx/logs/error.log*
+  fields:
+    %s: nginx-error
+    fields_under_root: true
+  tags: ["nginx-error"]
+output.redis:
+  hosts: ["172.31.3.15"]
+  port: "17788"
+  key: "*"
+  password: APPLE!@#++--123''' % (filebeat_api_name, filebeat_site, filebeat_site, filebeat_api_name, filebeat_cld, filebeat_api_name)
     msg_api = '''filebeat.config.modules:
-      path: ${path.config}/modules.d/*.yml
-      reload.enabled: false
-    setup.template.settings:
-      index.number_of_shards: 3
-    setup.kibana:
-    processors:
-      - add_host_metadata: ~
-      - add_cloud_metadata: ~
-    filebeat.inputs:
-    - type: log
-      enabled: true
-      paths:
-        - /var/log/messages
-      fields:
-        %s: messages                                     
-        fields_under_root: true
-      tags: ["syslog"]
-    - type: log
-      enabled: true
-      paths:
-        - /opt/logs/%s/Logs/20200209/*.txt                  
-        - /opt/logs/%s_2/Logs/20200209/*.txt
-      multiline.pattern: '^[0-9]{4}-[0-9]{2}-[0-9]{2}\ [0-9]{2}:[0-9]{2}:[0-9]{2}'
-      multiline.negate: true
-      multiline.match: after
-      fields:
-        %s: %s
-        fields_under_root: true
-      tags: ["applog"]
-    output.redis:
-      hosts: ["172.31.3.15"]
-      port: "17788"
-      key: "*"
-      password: APPLE!@#++--123''' % (
-        filebeat_api_name, filebeat_site_api, filebeat_site_api, filebeat_api_name, filebeat_site_api)
+  path: ${path.config}/modules.d/*.yml
+  reload.enabled: false
+setup.template.settings:
+  index.number_of_shards: 3
+setup.kibana:
+processors:
+  - add_host_metadata: ~
+  - add_cloud_metadata: ~
+filebeat.inputs:
+- type: log
+  enabled: true
+  paths:
+    - /var/log/messages
+  fields:
+    %s: messages                                     
+    fields_under_root: true
+  tags: ["syslog"]
+- type: log
+  enabled: true
+  paths:
+    - /opt/logs/%s/Logs/20200209/*.txt                  
+    - /opt/logs/%s_2/Logs/20200209/*.txt
+  multiline.pattern: '^[0-9]{4}-[0-9]{2}-[0-9]{2}\ [0-9]{2}:[0-9]{2}:[0-9]{2}'
+  multiline.negate: true
+  multiline.match: after
+  fields:
+    %s: %s
+    fields_under_root: true
+  tags: ["applog"]
+output.redis:
+  hosts: ["172.31.3.15"]
+  port: "17788"
+  key: "*"
+  password: APPLE!@#++--123''' % (filebeat_api_name, filebeat_site_api, filebeat_site_api, filebeat_api_name, filebeat_site_api)
     for i in sys.argv:
         if i == 'nginx':
             with open('/opt/elk/filebeat-6.5.4/filebeat.yml', 'w', encoding='utf-8') as f:

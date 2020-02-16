@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8dac206-8a98-40b8-8e81-f1224ba3e91e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/检查nginx_后端大于20秒/检查大于20秒.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/检查nginx_后端大于20秒/监听nginx服务器大于20秒.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/检查nginx_后端大于20秒/老版 大于20秒.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/日志格式/nginx日志格式.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_move-v8负载/create_nodes.py" beforeDir="false" afterPath="$PROJECT_DIR$/node_move-v8负载/create_nodes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/网络编程进阶&amp;数据库开发/多线程/02 进程与线程的区别.py" beforeDir="false" afterPath="$PROJECT_DIR$/网络编程进阶&amp;数据库开发/多线程/02 进程与线程的区别.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +17,9 @@
     <SUITE FILE_PATH="coverage/python$06_.coverage" NAME="06 互斥锁 Coverage Results" MODIFIED="1581570748674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程进阶&amp;数据库开发" />
     <SUITE FILE_PATH="coverage/python$10_.coverage" NAME="10 生产者消费者模型 Coverage Results" MODIFIED="1581579278388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程进阶&amp;数据库开发" />
     <SUITE FILE_PATH="coverage/python$03_Process.coverage" NAME="03 Process对象的其它的属性或方法 Coverage Results" MODIFIED="1581425682344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程进阶&amp;数据库开发" />
+    <SUITE FILE_PATH="coverage/python$create_nodes.coverage" NAME="create_nodes Coverage Results" MODIFIED="1581758943940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/node_move-v8负载" />
     <SUITE FILE_PATH="coverage/python$07_.coverage" NAME="07 模拟抢票 Coverage Results" MODIFIED="1581574154251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程进阶&amp;数据库开发" />
-    <SUITE FILE_PATH="coverage/python$test.coverage" NAME="test Coverage Results" MODIFIED="1581510191179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$test.coverage" NAME="test Coverage Results" MODIFIED="1581759667686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python$join.coverage" NAME="互斥锁与join的区别 Coverage Results" MODIFIED="1581574596667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程进阶&amp;数据库开发" />
     <SUITE FILE_PATH="coverage/python$11_Joinablequeu.coverage" NAME="11 Joinablequeu Coverage Results" MODIFIED="1581735816210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程进阶&amp;数据库开发" />
     <SUITE FILE_PATH="coverage/python$01_.coverage" NAME="01 开启线程的两种方式 Coverage Results" MODIFIED="1581736998120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程进阶&amp;数据库开发/多线程" />
@@ -35,50 +33,29 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/网络编程进阶&amp;数据库开发/多线程/02 进程与线程的区别.py">
+        <entry file="file://$USER_HOME$/Desktop/node_move-v8负载/create_nodes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+            <state relative-caret-position="456">
+              <caret line="548" selection-start-line="548" selection-end-line="548" />
               <folding>
-                <element signature="e#144#155#0" expanded="true" />
+                <element signature="e#0#24#0" expanded="true" />
+                <element signature="e#9404#10758#0" />
+                <element signature="e#10776#15995#0" />
+                <element signature="e#16015#18066#0" />
+                <element signature="e#18086#20176#0" />
+                <element signature="e#22073#22612#0" />
+                <element signature="e#22628#23133#0" />
+                <element signature="e#23315#25050#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/node_move-v8负载/create_nodes.py">
+        <entry file="file://$PROJECT_DIR$/日志格式/nginx日志格式.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="417" column="15" lean-forward="true" selection-start-line="417" selection-start-column="15" selection-end-line="417" selection-end-column="15" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-                <element signature="e#25159#28227#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="47" column="121" lean-forward="true" selection-start-line="47" selection-start-column="119" selection-end-line="47" selection-end-column="121" />
-              <folding>
-                <element signature="e#1427#1439#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/检查nginx_后端大于20秒/监听nginx服务器大于20秒.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="18" column="16" lean-forward="true" selection-start-line="6" selection-end-line="45" selection-end-column="20" />
-              <folding>
-                <element signature="e#130#142#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="608">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -95,6 +72,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>zabbix</find>
+      <find>msg</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -128,12 +106,13 @@
         <option value="$PROJECT_DIR$/网络编程进阶&amp;数据库开发/多线程/02 进程与线程的区别.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/node_move-v8负载/create_nodes.py" />
+        <option value="$PROJECT_DIR$/日志格式/nginx日志格式.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="667" />
-    <option name="y" value="25" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="351" />
+    <option name="y" value="3" />
     <option name="width" value="2184" />
     <option name="height" value="2172" />
   </component>
@@ -155,23 +134,7 @@
             <path>
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="node_move-v8负载" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="检查nginx_后端大于20秒" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="网络编程进阶&amp;数据库开发" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="网络编程进阶&amp;数据库开发" type="462c0819:PsiDirectoryNode" />
-              <item name="多线程" type="462c0819:PsiDirectoryNode" />
+              <item name="日志格式" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -207,7 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.01 开启线程的两种方式">
+  <component name="RunManager" selected="Python.test">
     <configuration name="01 开启线程的两种方式" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -222,28 +185,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络编程进阶&amp;数据库开发/多线程/01 开启线程的两种方式.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="09 队列的使用" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络编程进阶&amp;数据库开发" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络编程进阶&amp;数据库开发/09 队列的使用.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -296,7 +237,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="互斥锁与join的区别" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="create_nodes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -304,12 +245,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络编程进阶&amp;数据库开发" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/node_move-v8负载" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\python\网络编程进阶&amp;数据库开发\08 互斥锁与join的区别.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/node_move-v8负载/create_nodes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -320,11 +283,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.create_nodes" />
         <item itemvalue="Python.01 开启线程的两种方式" />
         <item itemvalue="Python.11 Joinablequeu" />
         <item itemvalue="Python.10 生产者消费者模型" />
-        <item itemvalue="Python.09 队列的使用" />
-        <item itemvalue="Python.互斥锁与join的区别" />
       </list>
     </recent_temporary>
   </component>
@@ -344,7 +307,8 @@
       <workItem from="1581561586547" duration="14213000" />
       <workItem from="1581606692294" duration="599000" />
       <workItem from="1581734240882" duration="11251000" />
-      <workItem from="1581757456230" duration="1219000" />
+      <workItem from="1581757456230" duration="5759000" />
+      <workItem from="1581820781179" duration="3679000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;新增了一个test文件&quot;">
       <created>1581489337216</created>
@@ -388,22 +352,29 @@
       <option name="project" value="LOCAL" />
       <updated>1581743831214</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="&quot;python 20200215修改&quot;">
+      <created>1581758738917</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1581758738917</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48163000" />
+    <option name="totallyTimeSpent" value="56382000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2486" height="1455" extended-state="6" />
+    <frame x="234" y="2" width="1456" height="1448" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1544481" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15665236" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.028722601" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.13227513" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -538,23 +509,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/node_move-v8负载/create_nodes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="546" column="13" selection-start-line="546" selection-start-column="13" selection-end-line="546" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-            <element signature="e#9404#10758#0" />
-            <element signature="e#10776#15995#0" />
-            <element signature="e#16015#18066#0" />
-            <element signature="e#18086#20176#0" />
-            <element signature="e#22073#22612#0" />
-            <element signature="e#22628#23133#0" />
-            <element signature="e#23315#25050#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/网络编程进阶&amp;数据库开发/05 守护进程.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -677,6 +631,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/检查nginx_后端大于20秒/监听nginx服务器大于20秒.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/网络编程进阶&amp;数据库开发/多线程/02 进程与线程的区别.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -689,32 +650,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="47" column="121" lean-forward="true" selection-start-line="47" selection-start-column="119" selection-end-line="47" selection-end-column="121" />
-          <folding>
-            <element signature="e#1427#1439#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="818">
+          <caret line="30" column="15" lean-forward="true" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/检查nginx_后端大于20秒/监听nginx服务器大于20秒.py">
+    <entry file="file://$PROJECT_DIR$/node_move-v8负载/conf.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="18" column="16" lean-forward="true" selection-start-line="6" selection-end-line="45" selection-end-column="20" />
-          <folding>
-            <element signature="e#130#142#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="456">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_move-v8负载/create_nodes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="417" column="15" lean-forward="true" selection-start-line="417" selection-start-column="15" selection-end-line="417" selection-end-column="15" />
+        <state relative-caret-position="96">
+          <caret line="555" column="14" selection-start-line="555" selection-start-column="14" selection-end-line="555" selection-end-column="14" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
-            <element signature="e#25159#28227#0" />
+            <element signature="e#2598#9379#0" />
+            <element signature="e#9404#10758#0" />
+            <element signature="e#10776#15995#0" />
+            <element signature="e#16015#18066#0" />
+            <element signature="e#18086#20176#0" />
+            <element signature="e#26254#27092#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/node_move-v8负载/create_nodes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="548" selection-start-line="548" selection-end-line="548" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#9404#10758#0" />
+            <element signature="e#10776#15995#0" />
+            <element signature="e#16015#18066#0" />
+            <element signature="e#18086#20176#0" />
+            <element signature="e#22073#22612#0" />
+            <element signature="e#22628#23133#0" />
+            <element signature="e#23315#25050#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/日志格式/nginx日志格式.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
