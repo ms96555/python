@@ -47,6 +47,7 @@ def la(name):
     return {'name':name,'res':res}
 
 def weigh(shit):
+    shit=shit.result()
     name=shit['name']
     size=len(shit['res'])
     print('%s 拉了 <%s> kg'%(name,size))
@@ -54,8 +55,8 @@ def weigh(shit):
 if __name__ == '__main__':
     pool=ThreadPoolExecutor(4)
 
-    pool.submit(la,'alex')
+    pool.submit(la,'alex').add_done_callback(weigh)
 
-    pool.submit(la,'wupeiqi')
+    pool.submit(la,'wupeiqi').add_done_callback(weigh)
 
-    pool.submit(la,'yuanhao')
+    pool.submit(la,'yuanhao').add_done_callback(weigh)
