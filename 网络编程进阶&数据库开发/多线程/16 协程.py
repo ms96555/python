@@ -6,6 +6,4 @@
 # -*- coding: utf-8 -*-
 
 
-def producer():
-
-    for
+def producer()
