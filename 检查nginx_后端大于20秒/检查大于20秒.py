@@ -14,7 +14,15 @@ hostName = socket.gethostname()
 #uname = hostName.split(".")
 uname = hostName.split(".")[0].split('ip-')[1].replace('-','.')
 r = redis.Redis(host=uname, port=6379,db=0,decode_responses=True)
-
+cmd = 'ps -fe | grep tail | grep -v "grep"'
+a = os.popen(cmd)  # 返回一个对象
+txt = a.readlines()
+if len(txt) != 0:
+    for lin in txt:
+        lin_ = lin.split()
+        pid = lin_[1]
+        cmd = 'kill -9 %d' % (int(pid))
+        rc = os.system(cmd)
 class RedisHelper:
     def __init__(self):
         self.__conn = r
