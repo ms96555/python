@@ -64,9 +64,9 @@ def stat_logs(*args):
                         new_dict = dict(zip(new_addr,new_list))
                         print(new_list)
                         for k,v in new_dict.items():
-                            if float(v) > 1:
+                            if float(v) > 80:
                                 obj.public(k)
-                    elif float(new_list[0]) > 1:
+                    elif float(new_list[0]) > 80:
                         obj.public(dict_line['upstream_addr'])
                 except Exception as e:
                     print(e)
