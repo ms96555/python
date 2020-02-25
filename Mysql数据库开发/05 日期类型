@@ -1,0 +1,14 @@
+create table student(
+    id int,
+    name char(6),
+    born_year year,
+    birth_date date,
+    class_time time,
+    reg_time datetime
+);
+
+insert into student values
+(1,'sky',now(),now(),now(),now(0));
+
+insert into student values
+(1,'xiaoming','2020','2020-02-11','12:12:11','2020-02-20 11:23:22');

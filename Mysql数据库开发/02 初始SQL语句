@@ -1,0 +1,44 @@
+SQL语句：
+
+操作文件夹（库）
+    增
+        create database db1 charset utf8;
+    查
+        show create database db1;
+        show databases;
+    改  (没有改名这么一说)
+        alter database db1 charset gbk;
+    删
+        drop database db1;
+
+操作文件（表）
+        要操作文件，先要切换文件夹：   use db1;
+        查看当前所在的文件夹： select database();
+    增
+        create table t1 (id int,name char);
+    查
+        show create table t1;
+        show tables;
+        desc t1;    (  友好型  )
+    改
+        alter table t1 modify name char(6);
+        alter table t1 change name NAME char(7);
+    删
+        drop table t1;
+
+操作文件内容（记录）
+    增
+        先要有表   create table t1 (id int,name char);
+        insert t1(id,nmae) values(1,'sky'),(2,'xiaoming'),(3,'ting')
+    查
+        select id,name from db1.t1;
+        select * from db1.t1;
+    改
+        update db1.t1 set name='SB';
+        update db1.t1 set name='sky' where id =2;
+    删
+        delete from t1;
+        delete from t1 where id=2;
+
+存储引擎
+    show engines;

@@ -1,0 +1,58 @@
+# Author : Sky
+# @Time : 2020/2/23 11:37
+# @Site :
+# @File : 01 win平台 用户名密码设置.py
+# @Software: PyCharm
+# -*- coding: utf-8 -*-
+
+'''
+1 .进入mysql 查看当前登录用户
+C:\Users\Administrator>mysql
+mysql> select user()    # 这里有user(） 类似用户函数
++----------------+
+| user()         |
++----------------+
+| ODBC@localhost |    # localhost 代表本地用户
++----------------+
+1 row in set (0.00 sec)
+
+2. 切换用户
+mysql -u root -p     # 5.6 版本安装完默认没有密码
+
+
+3. 创建密码
+C:\Users\Administrator>mysqladmin -u root -p password "admin"       # 用mysqladmin 命令
+Enter password:
+Warning: Using a password on the command line interface can be insecure.
+
+4. 修改密码
+mysqladmin -u root -p admin password "admin"
+
+
+5. 忘记密码
+
+1. 先跳过mysql加载的初始表，
+1.先停服务  net stop Mysql
+2.mysqld --skip-grant-tables   # 跳过权限表，这个时候再进去就一需要输入密码了
+3. update mysql.user set password=password("") where user="root" and host="localhost";
+4. flush privileges;
+5.重启服务
+
+
+6. 统一字符编码
+1.创建一个 my.ini 的配置文件，写入
+[mysqld]
+character-set-server=utf8
+collation-server=utf8_general_ci
+[client]                              # 这个是全局
+default-character-set=utf8
+
+[mysql]                           #这里说的是myslq默认进来是这个格式
+default-character-set=utf8
+user="root"
+password=""
+
+
+
+
+'''

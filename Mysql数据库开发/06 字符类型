@@ -1,0 +1,29 @@
+char : 定长
+
+varchar : 变长
+
+create table t13(name char(5));
+create table t14(name varchar(5));
+
+
+insert into t13 values('剑君 ');
+insert into t14 values('剑君 ');
+
+
+select name from t13;
+select char_length(name) from t13;
+
+# mysql 在比较的时候不会管未尾的空格( 前面和中间有空格不行)
+select name from t13 where name='剑君';
+
+# 如果用LIKE 模糊查询 是查不出来
+
+
+
+nmae char(5)
+egon |alex |wxx  |
+
+name varchar(5)
+egon|alex|wxx|
+可以在前面加一个BYTES
+4+egon|4+alex|3+wxx| 

@@ -1,0 +1,12 @@
+1 、什么是存储引擎？
+        存储引擎就是表的类型  （例如 mp3. txt. mp4. 这类格式）
+2、查看Mysql支抚持的存储引擎。
+    show engines;
+
+3、指定表类型/存储引擎
+create database db2;
+use db2;
+create table t1(id int)engine=innodb;
+create table t2(id int)engine=memory;
+create table t3(id int)engine=blackhole;
+create table t4(id int)engine=myisam;
