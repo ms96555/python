@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8dac206-8a98-40b8-8e81-f1224ba3e91e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Mysql数据库开发/01 win平台 用户名密码设置" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mysql数据库开发/02 初始SQL语句" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mysql数据库开发/03   库操作" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mysql数据库开发/04 存储引擎" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mysql数据库开发/05 日期类型" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mysql数据库开发/06 字符类型" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mysql数据库开发/07 单表查询" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/生产自动化相关/清理redis缓存.py" beforeDir="false" afterPath="$PROJECT_DIR$/生产自动化相关/清理redis缓存.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +27,7 @@
     <SUITE FILE_PATH="coverage/python$.coverage" NAME="客户端 Coverage Results" MODIFIED="1581494163126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程进阶&amp;数据库开发/04 练习题/02 基于多线程实现并发的套接字通信" />
     <SUITE FILE_PATH="coverage/python$03_join.coverage" NAME="03 join练习题 Coverage Results" MODIFIED="1581499089580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程进阶&amp;数据库开发/04 练习题" />
     <SUITE FILE_PATH="coverage/python$04_.coverage" NAME="04 练习题 Coverage Results" MODIFIED="1581487136118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程进阶&amp;数据库开发" />
-    <SUITE FILE_PATH="coverage/python$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1582634175439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1582772972436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python$05_.coverage" NAME="05 守护进程 Coverage Results" MODIFIED="1581563502811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程进阶&amp;数据库开发" />
     <SUITE FILE_PATH="coverage/python$02_pid_ppid.coverage" NAME="02 查看进程的pid 和ppid Coverage Results" MODIFIED="1581419938858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程进阶&amp;数据库开发" />
   </component>
@@ -67,8 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Mysql数据库开发/06 字符类型">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="1102">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -76,17 +72,46 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="835">
-              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="2128">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="810">
+              <caret line="175" column="6" selection-start-line="175" selection-start-column="6" selection-end-line="175" selection-end-column="6" />
+              <folding>
+                <element signature="e#39#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mysql数据库开发/07 单表查询">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/生产自动化相关/webUI_solo.conf">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/生产自动化相关/清理redis缓存.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+              <folding>
+                <element signature="e#120#132#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -137,7 +162,6 @@
         <option value="$PROJECT_DIR$/检查nginx_后端大于20秒/监听nginx服务器大于20秒.py" />
         <option value="$PROJECT_DIR$/网络编程进阶&amp;数据库开发/多线程/02 进程与线程的区别.py" />
         <option value="$PROJECT_DIR$/日志格式/nginx日志格式.py" />
-        <option value="$PROJECT_DIR$/生产自动化相关/清理redis缓存.py" />
         <option value="$PROJECT_DIR$/检查nginx_后端大于20秒/检查大于20秒.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/node_move-v8负载/create_nodes.py" />
@@ -150,12 +174,14 @@
         <option value="$PROJECT_DIR$/Mysql数据库开发/05 日期类型" />
         <option value="$PROJECT_DIR$/Mysql数据库开发/06 字符类型" />
         <option value="$PROJECT_DIR$/test2.py" />
+        <option value="$PROJECT_DIR$/Mysql数据库开发/07 单表查询" />
+        <option value="$PROJECT_DIR$/生产自动化相关/清理redis缓存.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="613" />
-    <option name="y" value="102" />
+    <option name="x" value="549" />
+    <option name="y" value="508" />
     <option name="width" value="2649" />
     <option name="height" value="1857" />
   </component>
@@ -167,7 +193,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,10 +205,16 @@
               <item name="python" type="462c0819:PsiDirectoryNode" />
               <item name="Mysql数据库开发" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="生产自动化相关" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -363,6 +394,7 @@
       <workItem from="1582354441789" duration="4011000" />
       <workItem from="1582426163446" duration="11844000" />
       <workItem from="1582598445967" duration="1999000" />
+      <workItem from="1582772059898" duration="5935000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;新增了一个test文件&quot;">
       <created>1581489337216</created>
@@ -438,18 +470,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96922000" />
+    <option name="totallyTimeSpent" value="102857000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="409" y="68" width="1766" height="1238" extended-state="0" />
+    <frame x="366" y="339" width="1766" height="1238" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.191452" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19379391" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.15099457" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.15099457" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39984882" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -506,10 +538,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="&quot;python 20200222修改&quot;" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/网络编程进阶&amp;数据库开发/test_a" />
-    <entry file="file://$PROJECT_DIR$/网络编程基础/Socket客户端.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/网络编程进阶&amp;数据库开发/04 练习题/02 基于多线程实现并发的套接字通信/客户端.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -704,16 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/生产自动化相关/清理redis缓存.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding>
-            <element signature="e#123#135#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/网络编程进阶&amp;数据库开发/11 Joinablequeu.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-348">
@@ -860,22 +878,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Mysql数据库开发/06 字符类型">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="1102">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="835">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="2128">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="810">
+          <caret line="175" column="6" selection-start-line="175" selection-start-column="6" selection-end-line="175" selection-end-column="6" />
+          <folding>
+            <element signature="e#39#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mysql数据库开发/07 单表查询">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/生产自动化相关/webUI_solo.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/生产自动化相关/清理redis缓存.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding>
+            <element signature="e#120#132#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

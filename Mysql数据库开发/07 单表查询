@@ -1,0 +1,8 @@
+单表查询
+
+select distinct 字段1，字段2，字段3 from 库.表
+    where 条件
+    group by 分组条件
+    having 过滤
+    order by 排序字段
+    limmit n;

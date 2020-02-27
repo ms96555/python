@@ -2,6 +2,7 @@
 # coding=utf-8
 
 import turtle as t
+import time
 
 t.pensize(4)
 t.hideturtle()
