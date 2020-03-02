@@ -23,6 +23,7 @@ if [ $? -eq 0 ];then
   pip install gitlab
   pip install python-gitlab
   pip install psutil
+  pip install redis
    if [ $? -eq 0 ];then
      python3 /scripts/create_nodes.py $1 $2 $3 $4 $5
    else
