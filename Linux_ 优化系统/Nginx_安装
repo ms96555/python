@@ -1,0 +1,130 @@
+yum install gcc gcc-c++ glibc make autoconf openssl openssl-devel pcre pcre-devel patch -y
+useradd -s /sbin/nologin -u 1001 www
+rm -rf /opt/software
+mkdir -p /opt/software
+cd /opt/software
+wget https://ftp.gnu.org/gnu/libiconv/libiconv-1.15.tar.gz
+wget http://nginx.org/download/nginx-1.15.7.tar.gz
+wget https://github.com/zls0424/ngx_req_status/archive/master.zip
+wget https://ftp.openssl.org/source/old/1.0.2/openssl-1.0.2o.tar.gz
+wget https://zlib.net/fossils/zlib-1.2.11.tar.gz
+tar xf libiconv-1.15.tar.gz
+tar xf nginx-1.15.7.tar.gz
+tar xf openssl-1.0.2o.tar.gz
+tar xf zlib-1.2.11.tar.gz
+mv master.zip ngx_req_status-master.zip
+unzip ngx_req_status-master.zip
+cd nginx-1.15.7/
+patch -p1 < /opt/software/ngx_req_status-master/write_filter-1.7.11.patch
+./configure --user=www --group=www --prefix=/opt/lnmp/nginx --with-http_stub_status_module --with-http_ssl_module --with-stream_ssl_module --with-http_gzip_static_module --with-http_sub_module --with-http_v2_module --with-pcre --with-threads --with-stream --with-zlib=/opt/software/zlib-1.2.11 --with-openssl=/opt/software/openssl-1.0.2o --add-module=/opt/software/ngx_req_status-master
+make && make install
+cat > /opt/lnmp/nginx/conf/nginx.conf << EOF
+user  www www;
+worker_processes auto;
+error_log  /opt/lnmp/nginx/logs/nginx_error.log  crit;
+pid        /opt/lnmp/nginx/logs/nginx.pid;
+worker_rlimit_nofile 51200;
+events{
+        use epoll;
+        worker_connections 51200;
+        multi_accept on;
+}
+http
+    {
+        include       mime.types;
+        default_type  application/octet-stream;
+        log_format main '{'
+        '"host": "$host",'
+        '"server_addr": "$server_addr",'
+        '"http_x_forwarded_for":"$http_x_forwarded_for",'
+        '"remote_addr":"$remote_addr",'
+        '"time_local":"$time_local",'
+        '"request_method":"$request_method",'
+        '"uri":"$uri",'
+        '"status":$status,'
+        '"body_bytes_sent":$body_bytes_sent,'
+        '"http_referer":"$http_referer",'
+        '"http_user_agent":"$http_user_agent",'
+        '"upstream_addr":"$upstream_addr",'
+        '"upstream_status":"$upstream_status",'
+        '"content_length":"$content_length",'
+        '"request_length":"$request_length",'
+        '"upstream_response_time":"$upstream_response_time",'
+        '"request_time":$request_time'
+        '}';
+        server_names_hash_bucket_size 256;
+        client_header_buffer_size 4k;
+        large_client_header_buffers 8 16k;
+        client_body_buffer_size 32k;
+        request_pool_size 64k;
+        connection_pool_size 512;
+        client_max_body_size 50m;
+        client_header_timeout 90s;
+        client_body_timeout 90s;
+        tcp_nodelay on;
+        tcp_nopush on;
+        keepalive_timeout 120;
+        sendfile on;
+        send_timeout                    3m;
+        fastcgi_connect_timeout 300;
+        fastcgi_send_timeout 300;
+        fastcgi_read_timeout 300;
+        fastcgi_buffer_size 64k;
+        fastcgi_buffers 4 64k;
+        fastcgi_busy_buffers_size 128k;
+        fastcgi_temp_file_write_size 256k;
+        map \$sent_http_content_type \$expires {
+        default         off;
+        application/pdf 42d;
+        ~image/         max;
+        application/javascript 365d;
+        text/css        365d;
+        }
+        limit_req_zone \$http_x_forwarded_for zone=one:10m rate=10r/m;
+        gzip on;
+        gzip_min_length  1k;
+        gzip_buffers     4 16k;
+        gzip_http_version 1.1;
+        gzip_comp_level 2;
+        gzip_types     text/plain application/javascript application/x-javascript text/javascript text/css application/xml application/xml+rss;
+        gzip_vary on;
+        gzip_proxied   expired no-cache no-store private auth;
+        gzip_disable   "MSIE [1-6]\.";
+        server_tokens off;
+        access_log off;
+#        req_status_zone server_name $server_name 256k;
+#       req_status_zone server_addr $server_addr 256k;
+#        req_status_zone server_url  $server_name 512k;
+#        req_status server_name server_addr server_url;
+        server {
+                listen 80 backlog=1024 default_server;
+                server_name 127.0.0.1;
+                #ssl_certificate  /opt/lnmp/nginx/conf/server.crt;
+                #ssl_certificate_key  /opt/lnmp/nginx/conf/server.key;
+                return 403;
+        }
+        server{
+        listen 800 default_server;
+        server_name 127.0.0.1;
+        location /nginx_status{
+            stub_status on;
+            access_log   off;
+            allow 172.31.39.211;
+            allow 127.0.0.1;
+            deny all;
+        }
+#        location /ttlsa_req_status{
+#           req_status_show on;
+#           access_log   off;
+#           allow 127.0.0.1;
+#           allow 172.31.39.211;
+#           deny all;
+#        }
+    }
+    include vhost/*.conf;
+    include vhost/*/*.conf;
+}
+EOF
+mkdir -p /opt/lnmp/nginx/conf/vhost
+/opt/lnmp/nginx/sbin/nginx
+ln -s /opt/lnmp/nginx/sbin/nginx /usr/sbin

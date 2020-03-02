@@ -1,0 +1,52 @@
+#!/bin/bash
+sudo su -
+echo "exclude=kernel centos-release*" >>/etc/yum.conf
+yum -y update
+rm -rf /etc/localtime
+ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+yum install -y wget net-tools vim telnet curl unzip lvm2 yum-utils device-mapper-persistent-data lsof git bash-completion htop
+yum install -y ntp crontabs ntpdate
+ntpdate -u pool.ntp.org
+echo -e "*/30  *  *  *  * root       ntpdate -u 172.31.42.116 >> /dev/null" >> /etc/crontab
+systemctl restart crond.service
+systemctl enable crond.service
+echo '*  -  nofile  65535' >> /etc/security/limits.conf
+echo '*  -  stack  65535' >> /etc/security/limits.conf
+echo '*  -  nproc 65535' >> /etc/security/limits.conf
+ulimit -SHn 65535
+
+echo 'vm.overcommit_memory=1' >> /etc/sysctl.conf
+echo "fs.file-max=655350" >> /etc/sysctl.conf
+cat >> /etc/sysctl.conf << EOF
+net.ipv4.tcp_fin_timeout = 2
+net.ipv4.tcp_tw_reuse = 1
+net.ipv4.tcp_tw_recycle = 0
+net.ipv4.tcp_syncookies = 1
+net.ipv4.tcp_keepalive_time =600
+net.ipv4.ip_local_port_range = 4000    65000
+net.ipv4.tcp_max_syn_backlog = 16384
+net.ipv4.tcp_max_tw_buckets = 36000
+net.ipv4.route.gc_timeout = 100
+net.ipv4.tcp_syn_retries = 1
+net.ipv4.tcp_synack_retries = 1
+net.core.somaxconn = 16384
+net.core.netdev_max_backlog = 16384
+net.ipv4.tcp_max_orphans = 16384
+net.nf_conntrack_max = 25000000
+net.bridge.bridge-nf-call-ip6tables = 1
+net.bridge.bridge-nf-call-iptables = 1
+net.ipv4.ip_forward = 1
+EOF
+sysctl -p
+
+echo "echo 'never' >  /sys/kernel/mm/transparent_hugepage/enabled && echo 'never' >  /sys/kernel/mm/transparent_hugepage/defrag" >> /etc/rc.local
+chmod +x /etc/rc.local
+
+systemctl stop firewalld
+sed -i.bak 's#SELINUX=enforcing#SELINUX=disabled#g' /etc/selinux/config
+setenforce 0
+systemctl disable firewalld.service
+
+echo "unset MAILCHECK" >> /etc/profile
+systemctl stop postfix.service
+systemctl disable postfix.service
