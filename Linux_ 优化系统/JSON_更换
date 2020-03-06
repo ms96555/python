@@ -1,0 +1,16 @@
+andriod接口域名修改
+添加或修改站点Andriod app 接口域名
+SSH远程登录国内的salt master
+IP: 101.133.174.114
+用户名：root
+密码：Asdf131..123@@123.com
+
+修改json文件
+cd /srv/salt/prod/nginx_conf_app/html/
+cp 22.json xx.json               #xx表示站点标识符
+vi xx.json                       #编辑json文件
+{"apiurl": "https://xx.com"}
+#将https://xx.com 更换成 Andriod app使用的接口域名，保存后执行如下信息同步到服务器
+salt -L 'cn-hn-cdn-03,cn-hz-cdn-03' state.sls nginx_conf_app.vhost saltenv=prod
+验证
+https://app-api.ub-res.com:19876/aa.json

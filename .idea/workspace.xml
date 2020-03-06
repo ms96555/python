@@ -2,14 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8dac206-8a98-40b8-8e81-f1224ba3e91e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Linux_ 优化系统/Nginx_安装" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linux_ 优化系统/initialize" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linux_ 优化系统/xxx.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_move-v8负载_云11/conf.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_move-v8负载_云11/create_nodes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_move-v8负载_云11/node.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linux_ 优化系统/proxy_site" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mysql数据库开发/mysql基础操作/03   库操作" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mysql数据库开发/mysql基础操作/08  连表操作" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mysql数据库开发/pymysql/01 连接mysql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mysql数据库开发/pymysql/02 pymysql模块的基本使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mysql数据库开发/pymysql/04 pymysql模块之删改查.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mysql数据库开发/pymysql/SQL 注入问题.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_move-v8负载/create_nodes.py" beforeDir="false" afterPath="$PROJECT_DIR$/node_move-v8负载/create_nodes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mysql数据库开发/01 win平台 用户名密码设置" beforeDir="false" afterPath="$PROJECT_DIR$/Mysql数据库开发/mysql基础操作/01 win平台 用户名密码设置" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mysql数据库开发/02 初始SQL语句" beforeDir="false" afterPath="$PROJECT_DIR$/Mysql数据库开发/mysql基础操作/02 初始SQL语句" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mysql数据库开发/03   库操作" beforeDir="false" afterPath="$PROJECT_DIR$/Linux_ 优化系统/JSON_更换" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mysql数据库开发/04 存储引擎" beforeDir="false" afterPath="$PROJECT_DIR$/Mysql数据库开发/mysql基础操作/04 存储引擎" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mysql数据库开发/05 日期类型" beforeDir="false" afterPath="$PROJECT_DIR$/Mysql数据库开发/mysql基础操作/05 日期类型" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mysql数据库开发/06 字符类型" beforeDir="false" afterPath="$PROJECT_DIR$/Mysql数据库开发/mysql基础操作/06 字符类型" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mysql数据库开发/07 单表查询" beforeDir="false" afterPath="$PROJECT_DIR$/Mysql数据库开发/mysql基础操作/07 单表查询" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_move-v8负载/conf.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_move-v8负载/conf.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +27,9 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/python$06_.coverage" NAME="06 互斥锁 Coverage Results" MODIFIED="1581570748674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程进阶&amp;数据库开发" />
+    <SUITE FILE_PATH="coverage/python$02_pymysql.coverage" NAME="02 pymysql模块的基本使用 Coverage Results" MODIFIED="1583303709718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mysql数据库开发/pymysql" />
     <SUITE FILE_PATH="coverage/python$10_.coverage" NAME="10 生产者消费者模型 Coverage Results" MODIFIED="1581579278388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程进阶&amp;数据库开发" />
+    <SUITE FILE_PATH="coverage/python$04_pymysql.coverage" NAME="04 pymysql模块之删改查 Coverage Results" MODIFIED="1583391114476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mysql数据库开发/pymysql" />
     <SUITE FILE_PATH="coverage/python$03_Process.coverage" NAME="03 Process对象的其它的属性或方法 Coverage Results" MODIFIED="1581425682344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程进阶&amp;数据库开发" />
     <SUITE FILE_PATH="coverage/python$create_nodes.coverage" NAME="create_nodes Coverage Results" MODIFIED="1581758943940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/node_move-v8负载" />
     <SUITE FILE_PATH="coverage/python$07_.coverage" NAME="07 模拟抢票 Coverage Results" MODIFIED="1581574154251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程进阶&amp;数据库开发" />
@@ -27,6 +37,7 @@
     <SUITE FILE_PATH="coverage/python$join.coverage" NAME="互斥锁与join的区别 Coverage Results" MODIFIED="1581574596667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程进阶&amp;数据库开发" />
     <SUITE FILE_PATH="coverage/python$11_Joinablequeu.coverage" NAME="11 Joinablequeu Coverage Results" MODIFIED="1581735816210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程进阶&amp;数据库开发" />
     <SUITE FILE_PATH="coverage/python$01_.coverage" NAME="01 开启线程的两种方式 Coverage Results" MODIFIED="1581736998120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程进阶&amp;数据库开发/多线程" />
+    <SUITE FILE_PATH="coverage/python$SQL_.coverage" NAME="SQL 注入问题 Coverage Results" MODIFIED="1583305347290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mysql数据库开发/pymysql" />
     <SUITE FILE_PATH="coverage/python$09_.coverage" NAME="09 队列的使用 Coverage Results" MODIFIED="1581575172918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程进阶&amp;数据库开发" />
     <SUITE FILE_PATH="coverage/python$.coverage" NAME="客户端 Coverage Results" MODIFIED="1581494163126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程进阶&amp;数据库开发/04 练习题/02 基于多线程实现并发的套接字通信" />
     <SUITE FILE_PATH="coverage/python$03_join.coverage" NAME="03 join练习题 Coverage Results" MODIFIED="1581499089580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程进阶&amp;数据库开发/04 练习题" />
@@ -95,18 +106,27 @@
         <option value="$PROJECT_DIR$/test2.py" />
         <option value="$PROJECT_DIR$/Mysql数据库开发/07 单表查询" />
         <option value="$PROJECT_DIR$/生产自动化相关/清理redis缓存.py" />
-        <option value="$PROJECT_DIR$/node_move-v8负载/create_nodes.py" />
         <option value="$PROJECT_DIR$/Linux_ 优化系统/initialize" />
         <option value="$PROJECT_DIR$/Linux_ 优化系统/Nginx_安装" />
         <option value="$PROJECT_DIR$/Linux_ 优化系统/xxx.conf" />
+        <option value="$PROJECT_DIR$/node_move-v8负载/node.sh" />
+        <option value="$PROJECT_DIR$/node_move-v8负载/create_nodes.py" />
+        <option value="$PROJECT_DIR$/node_move-v8负载/conf.json" />
+        <option value="$PROJECT_DIR$/Mysql数据库开发/08  连表操作" />
+        <option value="$PROJECT_DIR$/Linux_ 优化系统/proxy_site" />
+        <option value="$PROJECT_DIR$/Linux_ 优化系统/JSON_更换" />
+        <option value="$PROJECT_DIR$/Mysql数据库开发/pymysql/01 连接mysql.py" />
+        <option value="$PROJECT_DIR$/Mysql数据库开发/pymysql/02 pymysql模块的基本使用.py" />
+        <option value="$PROJECT_DIR$/Mysql数据库开发/pymysql/SQL 注入问题.py" />
+        <option value="$PROJECT_DIR$/Mysql数据库开发/pymysql/04 pymysql模块之删改查.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="7" />
-    <option name="y" value="123" />
-    <option name="width" value="2649" />
-    <option name="height" value="1857" />
+    <option name="x" value="1066" />
+    <option name="y" value="565" />
+    <option name="width" value="2520" />
+    <option name="height" value="1506" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -116,6 +136,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -126,18 +147,18 @@
             <path>
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="Linux_ 优化系统" type="462c0819:PsiDirectoryNode" />
+              <item name="Mysql数据库开发" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="日志格式" type="462c0819:PsiDirectoryNode" />
+              <item name="Mysql数据库开发" type="462c0819:PsiDirectoryNode" />
+              <item name="pymysql" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -150,6 +171,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\python\Mysql数据库开发\mysql基础操作" />
+      <recent name="D:\python\Mysql数据库开发\pymysql\mysql基础操作" />
       <recent name="D:\python\网络编程进阶&amp;数据库开发\04 练习题" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -169,8 +192,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test2">
-    <configuration name="01 开启线程的两种方式" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.04 pymysql模块之删改查">
+    <configuration name="02 pymysql模块的基本使用" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -178,12 +201,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络编程进阶&amp;数据库开发/多线程" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mysql数据库开发/pymysql" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络编程进阶&amp;数据库开发/多线程/01 开启线程的两种方式.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mysql数据库开发/pymysql/02 pymysql模块的基本使用.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -192,7 +215,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="11 Joinablequeu" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="04 pymysql模块之删改查" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -200,12 +223,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络编程进阶&amp;数据库开发" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mysql数据库开发/pymysql" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络编程进阶&amp;数据库开发/11 Joinablequeu.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mysql数据库开发/pymysql/04 pymysql模块之删改查.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -214,7 +237,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="create_nodes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="SQL 注入问题" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -222,12 +245,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/node_move-v8负载" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mysql数据库开发/pymysql" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/node_move-v8负载/create_nodes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mysql数据库开发/pymysql/SQL 注入问题.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -282,11 +305,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.04 pymysql模块之删改查" />
+        <item itemvalue="Python.SQL 注入问题" />
+        <item itemvalue="Python.02 pymysql模块的基本使用" />
         <item itemvalue="Python.test2" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.create_nodes" />
-        <item itemvalue="Python.01 开启线程的两种方式" />
-        <item itemvalue="Python.11 Joinablequeu" />
       </list>
     </recent_temporary>
   </component>
@@ -321,7 +344,14 @@
       <workItem from="1582772059898" duration="5954000" />
       <workItem from="1582859548841" duration="1495000" />
       <workItem from="1583031578327" duration="3255000" />
-      <workItem from="1583117604679" duration="647000" />
+      <workItem from="1583117604679" duration="5763000" />
+      <workItem from="1583215438482" duration="1923000" />
+      <workItem from="1583290466972" duration="1821000" />
+      <workItem from="1583294023588" duration="6204000" />
+      <workItem from="1583339889234" duration="1198000" />
+      <workItem from="1583384862641" duration="603000" />
+      <workItem from="1583390102990" duration="1290000" />
+      <workItem from="1583462975810" duration="602000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;新增了一个test文件&quot;">
       <created>1581489337216</created>
@@ -400,21 +430,35 @@
       <option name="project" value="LOCAL" />
       <updated>1582809383223</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="&quot;python 202000302增加linux_优化&quot;">
+      <created>1583126267310</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1583126267310</updated>
+    </task>
+    <task id="LOCAL-00013" summary="&quot;python 202000302增加linux_优化&quot;">
+      <created>1583150343173</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1583150343174</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108273000" />
+    <option name="totallyTimeSpent" value="127030000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="5" y="82" width="1766" height="1238" extended-state="0" />
+    <frame x="711" y="377" width="1680" height="1004" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20081967" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1621455" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.15099457" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.49311927" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39984882" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -446,73 +490,10 @@
     <MESSAGE value="&quot;python 20200221修改&quot;" />
     <MESSAGE value="&quot;python 20200222修改&quot;" />
     <MESSAGE value="&quot;python 20200227修改&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;python 20200227修改&quot;" />
+    <MESSAGE value="&quot;python 202000302增加linux_优化&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;python 202000302增加linux_优化&quot;" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/网络编程进阶&amp;数据库开发/04 练习题/03 join练习题.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#124#159#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/网络编程进阶&amp;数据库开发/05 守护进程.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="41" column="26" lean-forward="true" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
-          <folding>
-            <element signature="e#406#442#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python38/Lib/multiprocessing/process.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/网络编程进阶&amp;数据库开发/06 互斥锁.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding>
-            <element signature="e#120#155#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/node_move-v8负载/conf.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/网络编程进阶&amp;数据库开发/07 模拟抢票.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="34" lean-forward="true" selection-start-line="6" selection-end-line="34" />
-          <folding>
-            <element signature="e#120#124#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/网络编程进阶&amp;数据库开发/08 互斥锁与join的区别.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-          <folding>
-            <element signature="e#125#165#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/网络编程进阶&amp;数据库开发/db.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -641,16 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_move-v8负载/node.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_move-v8负载/conf.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/node_move-v8负载/create_nodes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -688,38 +659,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Mysql数据库开发/01 win平台 用户名密码设置.py" />
     <entry file="file://$PROJECT_DIR$/Mysql数据库开发/01 win平台用户名密码设置" />
-    <entry file="file://$PROJECT_DIR$/Mysql数据库开发/01 win平台 用户名密码设置">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mysql数据库开发/03   库操作">
+    <entry file="file://$PROJECT_DIR$/Mysql数据库开发/mysql基础操作/03   库操作">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mysql数据库开发/02 初始SQL语句">
+    <entry file="file://$PROJECT_DIR$/Mysql数据库开发/mysql基础操作/02 初始SQL语句">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1558">
           <caret line="41" selection-start-line="41" selection-end-line="43" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mysql数据库开发/04 存储引擎">
+    <entry file="file://$PROJECT_DIR$/Mysql数据库开发/mysql基础操作/04 存储引擎">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mysql数据库开发/05 日期类型">
+    <entry file="file://$PROJECT_DIR$/Mysql数据库开发/mysql基础操作/05 日期类型">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mysql数据库开发/06 字符类型">
+    <entry file="file://$PROJECT_DIR$/Mysql数据库开发/mysql基础操作/06 字符类型">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1102">
           <caret line="29" selection-start-line="29" selection-end-line="29" />
@@ -743,7 +707,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mysql数据库开发/07 单表查询">
+    <entry file="file://$PROJECT_DIR$/Mysql数据库开发/mysql基础操作/07 单表查询">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
@@ -770,23 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/日志格式/nginx日志格式.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="15" column="76" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_move-v8负载/create_nodes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="849">
-          <caret line="431" column="31" selection-start-line="431" selection-start-column="31" selection-end-line="431" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_move-v8负载_云11/node.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -794,13 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Linux_ 优化系统/Nginx_安装">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="62" column="32" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -817,6 +757,109 @@
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_move-v8负载/create_nodes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1617">
+          <caret line="472" column="47" lean-forward="true" selection-start-line="472" selection-start-column="47" selection-end-line="472" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#2598#9379#0" />
+            <element signature="e#9404#10758#0" />
+            <element signature="e#10776#15995#0" />
+            <element signature="e#16015#18066#0" />
+            <element signature="e#18086#20176#0" />
+            <element signature="e#22073#22612#0" />
+            <element signature="e#22628#23165#0" />
+            <element signature="e#24608#24665#0" />
+            <element signature="e#26203#28951#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_move-v8负载/node.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_move-v8负载/conf.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/日志格式/nginx日志格式.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Linux_ 优化系统/Nginx_安装">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4332">
+          <caret line="114" column="9" selection-start-line="114" selection-start-column="9" selection-end-line="114" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mysql数据库开发/mysql基础操作/08  连表操作">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Linux_ 优化系统/proxy_site">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Linux_ 优化系统/JSON_更换">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mysql数据库开发/mysql基础操作/01 win平台 用户名密码设置">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mysql数据库开发/pymysql/01 连接mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mysql数据库开发/pymysql/02 pymysql模块的基本使用.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="47" lean-forward="true" selection-start-line="6" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mysql数据库开发/pymysql/04 pymysql模块之删改查.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="69" column="14" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mysql数据库开发/pymysql/SQL 注入问题.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="743">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
         </state>
       </provider>
     </entry>

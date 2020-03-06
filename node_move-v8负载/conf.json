@@ -9,7 +9,7 @@
      "f,reids": "add key='CSRedis' value='test1'",
      "g,redis_bak": "add key='ApiThrottleRedis' value='test3'",
      "cloud": "4",
-         "nodes": "1",
+     "nodes": "1",
      "balance_a": "",
      "balance_b": "",
      "balance_c": "",
