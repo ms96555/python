@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form标签</title>
+</head>
+<body>
+	<form action="http://102.23.21.103" method="post">
+		<p>
+			<input type="text" placeholder="请输入用户名">
+		
+		</p>
+		<p>
+			<input type="password" placeholder="请输放密码">
+
+		</p>
+		<p>
+			<!-- radio  是单选圆形   加个name 属性会有互质效果  checked是默认选中一个 -->
+			男：<input type="radio" name="sex" checked="checked">
+			女：<input type="radio" name="sex">
+		</p>
+		<h4>购买的课程</h4>
+			<P>
+				<!--checkbox 复选框 是方形  -->
+				web前端：<input type="checkbox" name="" checked="checked"> 
+				go：<input type="checkbox" name="">
+				python：<input type="checkbox" name="">
+			</P>
+			<h3>下拉框实现单选</h3>
+				<p>
+					<!-- 下拉列表 -->
+					<select name="class">
+						<option value="a">CSS</option>
+						<option value="b">HTML</option>
+						<option selected="selected">JavaScript</option>
+						<option>Vue</option>						
+					</select>
+				</p>
+			<h3>下拉框实现多选</h3>
+				<p>
+					<!--multiple 多选 下拉列表 -->
+					<select multiple="multiple">
+						<option value="a">CSS</option>
+						<option value="b">HTML</option>
+						<option selected="selected">JavaScript</option>
+						<option>Vue</option>						
+					</select>
+				</p>
+					<p>
+						<!-- 文本实现多行输入 -->
+						<h3>个人描述</h3>
+						<!-- rows 等于10行  clos 等于30列-->
+						<textarea rows="10" cols="30">
+							
+						</textarea>
+
+					</p>
+		<p>
+			<!-- submit 功能提交   reset 重置功能   button 按扭没有实际意义-->
+			<input type="submit" name="aaa" value="立即注册">
+			<input type="reset" value="重置" name="">
+			<button>假的按扭</button>
+		</p>
+	</form>
+</body>
+</html>

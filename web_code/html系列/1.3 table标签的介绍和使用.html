@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>制做标签</title>
+</head>
+<body>
+	<!-- border  代表框框的线   cellspacing 代表格与格之间的距离  caption 表示标题-->
+	<table border="1" cellspacing="0">
+			<caption>商品清单</caption> 
+		<!-- tr  表示一行 -->
+		<tr>
+			<!-- th 表示表头 -->
+			<th>产品名称</th>
+			<th>品牌</th>
+			<!-- 横向合并 -->
+			<th colspan="2">数量入库时间</th>
+		</tr> 
+		<tr>
+			<td>电视机</td>
+			<td>海尔</td>
+			<td>200</td>
+			<td>2020-1-9</td>
+		</tr> 
+		<tr>
+			<td>电风扇</td>
+			<td>小米</td>
+			<td>40</td>
+			<td>2020-2-3</td>			
+		</tr> 
+		<tr>
+			<td>手机</td>
+			<!-- rowspan  纵向合并 -->
+			<td rowspan="3">小米</td>
+			<td>10</td>
+			<td>2020-3-5</td>			
+		</tr>
+		<tr>
+			<td>电脑</td>
+
+			<td>10</td>
+			<td>2020-4-1</td>			
+		</tr> 
+		<tr>
+			<td>平板</td>
+
+			<td>10</td>
+			<td>2020-2-2</td>			
+		</tr> 		 
+	</table>
+</body>
+</html>

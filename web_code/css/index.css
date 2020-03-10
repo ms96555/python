@@ -1,0 +1,63 @@
+/*
+
+选择符{
+	样式;
+}
+*/
+
+/*
+css 选择器：
+		一 ： 基础选择器
+			- 标签（元素）选择器
+			- 类 （class) 选择器
+			- ID （身份证号）选择器
+		二 ： 高级选择器
+			- 后代选择器
+			- 子代选择器
+			- 组合选择器
+			- 资信选择器
+			- 伪类选择器
+
+*/
+/*
+p{
+	color:red;
+	font-size: 20px;
+	font-weight: bold;
+}
+*/
+/*
+#id选择器名称
+*/
+#peiqi{
+	color: green;
+}
+#jj{
+	color: gray;
+	font-size: 28px;
+} 
+
+/*
+.active  点标示类
+*/
+
+.active{
+	color: gray;
+	/*font-size: 28px;*/
+}
+.title{
+	font-size: 40px;
+}
+
+
+
+
+.lv{
+	color: green;
+}
+.big{
+	font-size: 20px;
+}
+.bold{
+	font-weight: bold;
+}

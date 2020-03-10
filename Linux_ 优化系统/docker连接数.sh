@@ -1,0 +1,1 @@
+nsenter -t `docker inspect -f '{{.State.Pid}}' e618f00c5f37` -n netstat | grep ESTABLISHED -c

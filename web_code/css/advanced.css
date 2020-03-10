@@ -1,0 +1,84 @@
+
+/*
+后代选择器标签
+div a {
+	color:orange;
+}
+
+*/
+
+/*div a{
+	color:orange;
+}
+*/
+/*.wrap a{
+	color: gray;
+}
+*/
+
+/*
+子代选择器 > 这个符号  意思是wrap 下面的第一个a 标签生效
+*/
+/*.wrap>a{
+	color: purple;
+}
+*/
+
+/*
+组合选择器
+ 加个 , 号
+*/
+/*h3,span {
+	color:gray;
+	font-size: 34px
+}
+*/
+
+/*
+
+访问前a的状态
+
+*/
+a:link{
+	color:orange;
+}
+
+
+/*
+访问过后a的状态
+
+*/
+/*a:visited{
+	color:red;
+}*/
+a:vistied{
+	color: red;
+}
+/*
+鼠标悬浮时
+*/
+a:hover{
+	color: black;
+}
+
+/*
+鼠标摁住的时候
+*/
+a:active{
+	color: green;
+}
+
+span{
+	color: gray;
+}
+
+span:hover{
+	color: red;
+}
+
+div:hover{
+	background-color: green;
+}
+div:hover span{
+	color: white;
+}
