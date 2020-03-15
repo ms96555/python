@@ -1,5 +1,4 @@
 #!/bin/bash
-sudo su -
 echo "exclude=kernel centos-release*" >>/etc/yum.conf
 yum -y update
 rm -rf /etc/localtime
@@ -16,7 +15,7 @@ echo '*  -  nproc 65535' >> /etc/security/limits.conf
 ulimit -SHn 65535
 
 echo 'vm.overcommit_memory=1' >> /etc/sysctl.conf
-echo "fs.file-max=655350" >> /etc/sysctl.conf
+echo "fs.file-max=2000000" >> /etc/sysctl.conf
 cat >> /etc/sysctl.conf << EOF
 net.ipv4.tcp_fin_timeout = 2
 net.ipv4.tcp_tw_reuse = 1

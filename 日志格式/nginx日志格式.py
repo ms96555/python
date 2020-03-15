@@ -14,3 +14,11 @@
 
 #  查看大于20秒的
 #  awk -F 'upstream_response_time":"|","request_time' '{if($2>20) print $0}'
+
+
+# 查看nginx返回的时间，也可以加 | 符号进行多条件匹配
+# tail -f  apiApi_de.log|grep -E "[0-9].[0-9]{1,3}[0-9]{1,3}}"
+
+
+# 查看返回时间
+#time cat webUI_de.log| grep -E '14/Mar/2020:16:[3-6][0-1]:[0-9][0-9]'| grep -E 'request_time":[6-9][0-9].[0-9][0-9][0-9]}'
