@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8dac206-8a98-40b8-8e81-f1224ba3e91e" name="Default Changelist" comment="&quot;python 202000315增加linux_优化&quot;">
-      <change afterPath="$PROJECT_DIR$/WEB框架/01 JD_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WEB框架/01index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WEB框架/login.html" afterDir="false" />
+    <list default="true" id="b8dac206-8a98-40b8-8e81-f1224ba3e91e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/WEB框架/wsgi_server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linux_ 优化系统/proxy_site" beforeDir="false" afterPath="$PROJECT_DIR$/Linux_ 优化系统/proxy_site" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +14,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/python$06_.coverage" NAME="06 互斥锁 Coverage Results" MODIFIED="1581570748674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程进阶&amp;数据库开发" />
     <SUITE FILE_PATH="coverage/python$02_pymysql.coverage" NAME="02 pymysql模块的基本使用 Coverage Results" MODIFIED="1583303709718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mysql数据库开发/pymysql" />
+    <SUITE FILE_PATH="coverage/python$wsgi_server.coverage" NAME="wsgi_server Coverage Results" MODIFIED="1584849140315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WEB框架" />
     <SUITE FILE_PATH="coverage/python$10_.coverage" NAME="10 生产者消费者模型 Coverage Results" MODIFIED="1581579278388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程进阶&amp;数据库开发" />
     <SUITE FILE_PATH="coverage/python$04_pymysql.coverage" NAME="04 pymysql模块之删改查 Coverage Results" MODIFIED="1583391114476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mysql数据库开发/pymysql" />
     <SUITE FILE_PATH="coverage/python$Tcpdump.coverage" NAME="Tcpdump抓包 Coverage Results" MODIFIED="1584079864500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Linux_ 优化系统" />
@@ -43,8 +40,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WEB框架/01 JD_server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="284">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WEB框架/wsgi_server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -52,7 +58,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WEB框架/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
+            <state relative-caret-position="56">
               <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
             </state>
           </provider>
@@ -61,26 +67,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WEB框架/01index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+            <state relative-caret-position="418">
+              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Linux_ 优化系统/proxy_site">
+        <entry file="file://C:/Program Files/Python38/Lib/wsgiref/handlers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1254">
-              <caret line="33" column="12" lean-forward="true" selection-start-line="33" selection-end-line="33" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Linux_ 优化系统/xxx.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="132">
+              <caret line="137" selection-start-line="137" selection-end-line="137" />
             </state>
           </provider>
         </entry>
@@ -90,8 +87,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -100,6 +97,7 @@
       <find>zabbix</find>
       <find>msg</find>
       <find>elk</find>
+      <find>PATH_INFO</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -108,7 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/网络编程进阶&amp;数据库开发/03 Process对象的其它的属性或方法.py" />
         <option value="$PROJECT_DIR$/网络编程进阶&amp;数据库开发/04 练习题.py" />
         <option value="$PROJECT_DIR$/网络编程进阶&amp;数据库开发/04 练习题/02 练习题.py" />
         <option value="$PROJECT_DIR$/网络编程进阶&amp;数据库开发/04 练习题/02 基于多线程实现并发的套接字通信/服务端.py" />
@@ -159,14 +156,15 @@
         <option value="$PROJECT_DIR$/WEB框架/01index.html" />
         <option value="$PROJECT_DIR$/WEB框架/login.html" />
         <option value="$PROJECT_DIR$/WEB框架/01 JD_server.py" />
+        <option value="$PROJECT_DIR$/WEB框架/wsgi_server.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="841" />
-    <option name="y" value="358" />
-    <option name="width" value="2451" />
-    <option name="height" value="1641" />
+    <option name="x" value="1966" />
+    <option name="y" value="373" />
+    <option name="width" value="1629" />
+    <option name="height" value="1571" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -183,11 +181,6 @@
             <path>
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="Linux_ 优化系统" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
@@ -231,7 +224,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.01 JD_server">
+  <component name="RunManager" selected="Python.wsgi_server">
     <configuration name="01 JD_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -268,28 +261,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mysql数据库开发/pymysql/04 pymysql模块之删改查.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="SQL 注入问题" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mysql数据库开发/pymysql" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mysql数据库开发/pymysql/SQL 注入问题.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -342,13 +313,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="wsgi_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WEB框架" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WEB框架/wsgi_server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.wsgi_server" />
         <item itemvalue="Python.01 JD_server" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.Tcpdump抓包" />
         <item itemvalue="Python.04 pymysql模块之删改查" />
-        <item itemvalue="Python.SQL 注入问题" />
       </list>
     </recent_temporary>
   </component>
@@ -404,7 +397,7 @@
       <workItem from="1584620924132" duration="570000" />
       <workItem from="1584757318021" duration="1215000" />
       <workItem from="1584786345901" duration="599000" />
-      <workItem from="1584841967963" duration="603000" />
+      <workItem from="1584841967963" duration="4485000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;新增了一个test文件&quot;">
       <created>1581489337216</created>
@@ -532,22 +525,28 @@
       <option name="project" value="LOCAL" />
       <updated>1584250990905</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="&quot;python 202000322增加linux_优化&quot;">
+      <created>1584847270506</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1584847270506</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177384000" />
+    <option name="totallyTimeSpent" value="181266000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="561" y="239" width="1634" height="1094" extended-state="0" />
-    <editor active="true" />
+    <frame x="1311" y="250" width="1086" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19733502" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3025292" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5010395" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.49398908" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39984882" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -583,22 +582,10 @@
     <MESSAGE value="&quot;python 202000310增加linux_优化&quot;" />
     <MESSAGE value="&quot;python 202000313增加linux_优化&quot;" />
     <MESSAGE value="&quot;python 202000315增加linux_优化&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;python 202000315增加linux_优化&quot;" />
+    <MESSAGE value="&quot;python 202000322增加linux_优化&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;python 202000322增加linux_优化&quot;" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/网络编程进阶&amp;数据库开发/11 Joinablequeu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-348">
-          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding>
-            <element signature="e#129#179#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/网络编程进阶&amp;数据库开发/多线程/13 进程池线程池.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/网络编程进阶&amp;数据库开发/多线程/14 异步调用和加调机制.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-58" />
@@ -892,27 +879,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WEB框架/01 JD_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEB框架/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEB框架/01index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Linux_ 优化系统/proxy_site">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1254">
@@ -922,8 +888,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Linux_ 优化系统/xxx.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="418">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python38/Lib/wsgiref/handlers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="137" selection-start-line="137" selection-end-line="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WEB框架/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WEB框架/01index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WEB框架/01 JD_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WEB框架/wsgi_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
         </state>
       </provider>
     </entry>
