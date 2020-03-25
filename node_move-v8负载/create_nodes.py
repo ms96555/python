@@ -453,6 +453,12 @@ def zabbix():
             result = zabbix_api_common(data_nginx)
             print(result)
             msg = '''
+# Author : laobai
+# @Time : 2020/2/15 15:37
+# @Site :
+# @File : 监听nginx服务器大于20秒.py
+# @Software: PyCharm
+# -*- coding: utf-8 -*-              
 import redis
 import json,sys,os
 import time
@@ -501,6 +507,12 @@ while True:
             result = zabbix_api_common(data_api)
             print(result)
             msg_zabbix = '''
+# Author : laobai
+# @Time : 2020/2/15 15:37
+# @Site :
+# @File : 监听nginx服务器大于20秒.py
+# @Software: PyCharm
+# -*- coding: utf-8 -*-            
 import redis
 import json, sys, os
 import time
@@ -508,10 +520,8 @@ import socket
 import subprocess
 hostName = socket.gethostname()
 uname = hostName.split(".")[0].split('ip-')[1].replace('-','.')
-redis_ip = %s
+redis_ip = "%s"
 r = redis.Redis(host=redis_ip, port=6379, db=0, decode_responses=True)
-
-
 class RedisHelper:
     def __init__(self):
         self.__conn = r
