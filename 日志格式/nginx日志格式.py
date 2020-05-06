@@ -13,7 +13,7 @@
 # cat webUI_dh.log| sed -n '/2020:10:16:00/,/2020:10:17:00/p'
 
 #  查看大于20秒的
-#  awk -F 'upstream_response_time":"|","request_time' '{if($2>20) print $0}'
+#  awk -F 'upstream_response_time":"|","request_time' '{if($2>60) print $0}'
 
 
 # 查看nginx返回的时间，也可以加 | 符号进行多条件匹配
