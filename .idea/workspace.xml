@@ -5,16 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8dac206-8a98-40b8-8e81-f1224ba3e91e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ELk/filebeat_restart.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ELk/window_filebeat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linux_ 优化系统/查看系统进程.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/连接SSH主机/ssh.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/连接SSH主机/ssh_第二版.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AG_Test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BG_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CQ_Test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DS_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linux_ 优化系统/winds_filebeat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/____kongbai___.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company_rsa_public_key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/des.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ompany_rsa_private_key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/检查nginx_后端大于20秒/检查大于80秒.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linux_ 优化系统/proxy_site" beforeDir="false" afterPath="$PROJECT_DIR$/Linux_ 优化系统/proxy_site" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_pro/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_pro/templates/timer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/日志格式/nginx日志格式.py" beforeDir="false" afterPath="$PROJECT_DIR$/日志格式/nginx日志格式.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/检查nginx_后端大于20秒/检查大于20秒.py" beforeDir="false" afterPath="$PROJECT_DIR$/检查nginx_后端大于20秒/检查大于20秒.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/检查nginx_后端大于20秒/监听nginx服务器大于20秒.py" beforeDir="false" afterPath="$PROJECT_DIR$/检查nginx_后端大于20秒/监听nginx服务器大于20秒.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,12 +35,16 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/python$06_.coverage" NAME="06 互斥锁 Coverage Results" MODIFIED="1581570748674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程进阶&amp;数据库开发" />
+    <SUITE FILE_PATH="coverage/python$winds_filebeat.coverage" NAME="winds_filebeat Coverage Results" MODIFIED="1591602548522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Linux_ 优化系统" />
+    <SUITE FILE_PATH="coverage/python$test10.coverage" NAME="test10 Coverage Results" MODIFIED="1594873335319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python$10_.coverage" NAME="10 生产者消费者模型 Coverage Results" MODIFIED="1581579278388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程进阶&amp;数据库开发" />
     <SUITE FILE_PATH="coverage/python$04_pymysql.coverage" NAME="04 pymysql模块之删改查 Coverage Results" MODIFIED="1583391114476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mysql数据库开发/pymysql" />
     <SUITE FILE_PATH="coverage/python$main_2.coverage" NAME="main_2 Coverage Results" MODIFIED="1585102577463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WEB框架" />
     <SUITE FILE_PATH="coverage/python$03_Process.coverage" NAME="03 Process对象的其它的属性或方法 Coverage Results" MODIFIED="1581425682344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程进阶&amp;数据库开发" />
     <SUITE FILE_PATH="coverage/python$create_nodes.coverage" NAME="create_nodes Coverage Results" MODIFIED="1581758943940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/node_move-v8负载" />
+    <SUITE FILE_PATH="coverage/python$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1590232042107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python$join.coverage" NAME="互斥锁与join的区别 Coverage Results" MODIFIED="1581574596667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程进阶&amp;数据库开发" />
+    <SUITE FILE_PATH="coverage/python$DS_test.coverage" NAME="DS_test Coverage Results" MODIFIED="1592205213094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python$11_Joinablequeu.coverage" NAME="11 Joinablequeu Coverage Results" MODIFIED="1581735816210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程进阶&amp;数据库开发" />
     <SUITE FILE_PATH="coverage/python$01_.coverage" NAME="01 开启线程的两种方式 Coverage Results" MODIFIED="1581736998120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程进阶&amp;数据库开发/多线程" />
     <SUITE FILE_PATH="coverage/python$SQL_.coverage" NAME="SQL 注入问题 Coverage Results" MODIFIED="1583305347290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mysql数据库开发/pymysql" />
@@ -38,18 +53,28 @@
     <SUITE FILE_PATH="coverage/python$03_join.coverage" NAME="03 join练习题 Coverage Results" MODIFIED="1581499089580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程进阶&amp;数据库开发/04 练习题" />
     <SUITE FILE_PATH="coverage/python$.coverage" NAME="查看系统进程 Coverage Results" MODIFIED="1588056737639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Linux_ 优化系统" />
     <SUITE FILE_PATH="coverage/python$04_.coverage" NAME="04 练习题 Coverage Results" MODIFIED="1581487136118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程进阶&amp;数据库开发" />
-    <SUITE FILE_PATH="coverage/python$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1582772972436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$des.coverage" NAME="des Coverage Results" MODIFIED="1591949107532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$test5.coverage" NAME="test5 Coverage Results" MODIFIED="1593335347099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1593401903936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python$02_pid_ppid.coverage" NAME="02 查看进程的pid 和ppid Coverage Results" MODIFIED="1581419938858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程进阶&amp;数据库开发" />
     <SUITE FILE_PATH="coverage/python$02_pymysql.coverage" NAME="02 pymysql模块的基本使用 Coverage Results" MODIFIED="1583303709718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mysql数据库开发/pymysql" />
     <SUITE FILE_PATH="coverage/python$wsgi_server.coverage" NAME="wsgi_server Coverage Results" MODIFIED="1585014084294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WEB框架" />
+    <SUITE FILE_PATH="coverage/python$test4.coverage" NAME="test4 Coverage Results" MODIFIED="1590224644098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python$ssh.coverage" NAME="ssh Coverage Results" MODIFIED="1587713508547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/连接SSH主机" />
     <SUITE FILE_PATH="coverage/python$Tcpdump.coverage" NAME="Tcpdump抓包 Coverage Results" MODIFIED="1584079864500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Linux_ 优化系统" />
+    <SUITE FILE_PATH="coverage/python$BG_test.coverage" NAME="BG_test Coverage Results" MODIFIED="1592219548160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python$07_.coverage" NAME="07 模拟抢票 Coverage Results" MODIFIED="1581574154251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程进阶&amp;数据库开发" />
-    <SUITE FILE_PATH="coverage/python$test.coverage" NAME="test Coverage Results" MODIFIED="1584081869872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$test7.coverage" NAME="test7 Coverage Results" MODIFIED="1594276238092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$____kongbai___.coverage" NAME="____kongbai___ Coverage Results" MODIFIED="1593689596715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$test.coverage" NAME="test Coverage Results" MODIFIED="1593397078578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$test6.coverage" NAME="test6 Coverage Results" MODIFIED="1593396304934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$AG_Test.coverage" NAME="AG_Test Coverage Results" MODIFIED="1591949457152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python$create_sh.coverage" NAME="create_sh Coverage Results" MODIFIED="1587351485519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/pyjson" />
+    <SUITE FILE_PATH="coverage/python$CQ_Test.coverage" NAME="CQ_Test Coverage Results" MODIFIED="1592293304384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python$05_.coverage" NAME="05 守护进程 Coverage Results" MODIFIED="1581563502811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程进阶&amp;数据库开发" />
     <SUITE FILE_PATH="coverage/python$main.coverage" NAME="main Coverage Results" MODIFIED="1585186903171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WEB框架" />
     <SUITE FILE_PATH="coverage/python$ssh_.coverage" NAME="ssh_第二版 Coverage Results" MODIFIED="1588412950875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/连接SSH主机" />
+    <SUITE FILE_PATH="coverage/python$rsa.coverage" NAME="rsa Coverage Results" MODIFIED="1592644834149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="python" />
@@ -57,49 +82,88 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/连接SSH主机/ssh.py">
+        <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
-              <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+            <state relative-caret-position="1213">
+              <caret line="134" selection-start-line="134" selection-end-line="135" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test5.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
               <folding>
-                <element signature="e#117#132#0" expanded="true" />
+                <element signature="e#118#153#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/连接SSH主机/ssh_第二版.py">
+        <entry file="file://$PROJECT_DIR$/des.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="69" column="80" lean-forward="true" selection-start-line="69" selection-start-column="80" selection-end-line="69" selection-end-column="80" />
+            <state relative-caret-position="54">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Linux_ 优化系统/查看系统进程.py">
+        <entry file="file://$PROJECT_DIR$/AG_Test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="798">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="810">
+              <caret line="37" selection-start-line="37" selection-end-line="37" selection-end-column="22" />
+              <folding>
+                <element signature="e#118#153#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Linux_ 优化系统/proxy_site">
+        <entry file="file://$PROJECT_DIR$/BG_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1422">
-              <caret line="59" column="4" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
+            <state relative-caret-position="3213">
+              <caret line="127" column="31" selection-start-line="127" selection-start-column="31" selection-end-line="127" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/日志格式/nginx日志格式.py">
+        <entry file="file://$PROJECT_DIR$/test6.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="15" column="76" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="76" />
+            <state relative-caret-position="1134">
+              <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test7.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1728">
+              <caret line="69" column="20" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test8.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="625">
+              <caret line="53" column="31" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+              <folding>
+                <element signature="e#128#140#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,6 +190,15 @@
       <find>ssh</find>
       <find>get_Filesize</find>
       <find>mode</find>
+      <find>sha</find>
+      <find>md5</find>
+      <find>encoding</find>
+      <find>company_rsa_public_key\</find>
+      <find>company_rsa_public_key</find>
+      <find>base</find>
+      <find>git</find>
+      <find>aes</find>
+      <find>gitlab</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -134,39 +207,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/网络编程进阶&amp;数据库开发/11 Joinablequeu.py" />
-        <option value="$PROJECT_DIR$/网络编程进阶&amp;数据库开发/多线程/01 开启线程的两种方式.py" />
-        <option value="$PROJECT_DIR$/检查nginx_后端大于20秒/老版 大于20秒.py" />
-        <option value="$PROJECT_DIR$/检查nginx_后端大于20秒/监听nginx服务器大于20秒.py" />
-        <option value="$PROJECT_DIR$/网络编程进阶&amp;数据库开发/多线程/02 进程与线程的区别.py" />
-        <option value="$PROJECT_DIR$/检查nginx_后端大于20秒/检查大于20秒.py" />
-        <option value="$PROJECT_DIR$/Mysql数据库开发/01 win平台 用户密码设置.html" />
-        <option value="$PROJECT_DIR$/Mysql数据库开发/01 win平台 用户名密码设置.py" />
-        <option value="$PROJECT_DIR$/Mysql数据库开发/01 win平台用户名密码设置" />
-        <option value="$PROJECT_DIR$/Mysql数据库开发/01 win平台 用户名密码设置" />
-        <option value="$PROJECT_DIR$/Mysql数据库开发/02 初始SQL语句" />
-        <option value="$PROJECT_DIR$/Mysql数据库开发/04 存储引擎" />
-        <option value="$PROJECT_DIR$/Mysql数据库开发/05 日期类型" />
-        <option value="$PROJECT_DIR$/Mysql数据库开发/06 字符类型" />
-        <option value="$PROJECT_DIR$/Mysql数据库开发/07 单表查询" />
-        <option value="$PROJECT_DIR$/生产自动化相关/清理redis缓存.py" />
-        <option value="$PROJECT_DIR$/node_move-v8负载/node.sh" />
-        <option value="$PROJECT_DIR$/node_move-v8负载/conf.json" />
-        <option value="$PROJECT_DIR$/Mysql数据库开发/08  连表操作" />
-        <option value="$PROJECT_DIR$/Linux_ 优化系统/JSON_更换" />
-        <option value="$PROJECT_DIR$/Mysql数据库开发/pymysql/01 连接mysql.py" />
-        <option value="$PROJECT_DIR$/Mysql数据库开发/pymysql/02 pymysql模块的基本使用.py" />
         <option value="$PROJECT_DIR$/Mysql数据库开发/pymysql/SQL 注入问题.py" />
         <option value="$PROJECT_DIR$/Mysql数据库开发/pymysql/04 pymysql模块之删改查.py" />
         <option value="$PROJECT_DIR$/Linux_ 优化系统/Tcpdump抓包.py" />
         <option value="$PROJECT_DIR$/Linux_ 优化系统/xxx.conf" />
         <option value="$PROJECT_DIR$/Linux_ 优化系统/Nginx_安装" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/WEB框架/01index.html" />
         <option value="$PROJECT_DIR$/WEB框架/01 JD_server.py" />
         <option value="$PROJECT_DIR$/WEB框架/wsgi_server.py" />
-        <option value="$PROJECT_DIR$/test2.py" />
-        <option value="$PROJECT_DIR$/node_move-v8负载/create_nodes.py" />
         <option value="$PROJECT_DIR$/WEB框架/login.html" />
         <option value="$PROJECT_DIR$/WEB框架/main_2.py" />
         <option value="$PROJECT_DIR$/WEB框架/reg.html" />
@@ -176,7 +224,6 @@
         <option value="$PROJECT_DIR$/WEB框架/urls.py" />
         <option value="$PROJECT_DIR$/Linux_ 优化系统/initialize" />
         <option value="$PROJECT_DIR$/日志格式/nginx日志格式.py" />
-        <option value="$PROJECT_DIR$/Linux_ 优化系统/proxy_site" />
         <option value="$PROJECT_DIR$/ELk/window_filebeat.py" />
         <option value="$USER_HOME$/Desktop/pyjson/create_sh.py" />
         <option value="$USER_HOME$/Desktop/pyjson/create_shsky.py" />
@@ -185,14 +232,40 @@
         <option value="$PROJECT_DIR$/Linux_ 优化系统/查看系统进程.html" />
         <option value="$PROJECT_DIR$/Linux_ 优化系统/查看系统进程.py" />
         <option value="$PROJECT_DIR$/连接SSH主机/ssh_第二版.py" />
+        <option value="$PROJECT_DIR$/test4.py" />
+        <option value="$PROJECT_DIR$/test3.py" />
+        <option value="$PROJECT_DIR$/Linux_ 优化系统/winds_filebeat.py" />
+        <option value="$PROJECT_DIR$/面像对象讲笔记/AG.py" />
+        <option value="$PROJECT_DIR$/AG_Test.py" />
+        <option value="$PROJECT_DIR$/面像对象讲笔记/DS_test.py" />
+        <option value="$PROJECT_DIR$/Linux_ 优化系统/proxy_site" />
+        <option value="$PROJECT_DIR$/DS_test.py" />
+        <option value="$PROJECT_DIR$/BG_test.py" />
+        <option value="$PROJECT_DIR$/CQ_Test.py" />
+        <option value="$PROJECT_DIR$/检查nginx_后端大于20秒/检查大于20秒.py" />
+        <option value="$PROJECT_DIR$/rsa.py" />
+        <option value="$PROJECT_DIR$/node_move-v8负载/create_nodes.py" />
+        <option value="$PROJECT_DIR$/test5.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/test6.py" />
+        <option value="$PROJECT_DIR$/ompany_rsa_private_key.pem" />
+        <option value="$PROJECT_DIR$/company_rsa_public_key.pem" />
+        <option value="$PROJECT_DIR$/test2.py" />
+        <option value="$PROJECT_DIR$/____kongbai___.py" />
+        <option value="$PROJECT_DIR$/检查nginx_后端大于20秒/检查大于80秒.py" />
+        <option value="$PROJECT_DIR$/检查nginx_后端大于20秒/监听nginx服务器大于20秒.py" />
+        <option value="$PROJECT_DIR$/test7.py" />
+        <option value="$PROJECT_DIR$/test8.py" />
+        <option value="$PROJECT_DIR$/test10.py" />
+        <option value="$PROJECT_DIR$/des.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="877" />
-    <option name="y" value="172" />
-    <option name="width" value="2357" />
-    <option name="height" value="1803" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-16" />
+    <option name="y" value="23" />
+    <option name="width" value="1466" />
+    <option name="height" value="926" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -202,7 +275,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,17 +285,17 @@
             <path>
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="Linux_ 优化系统" type="462c0819:PsiDirectoryNode" />
+              <item name="检查nginx_后端大于20秒" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="日志格式" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -236,11 +308,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\python\WEB框架\templates" />
       <recent name="D:\python" />
       <recent name="D:\python\检查nginx_后端大于20秒" />
+      <recent name="D:\python\面像对象讲笔记" />
+      <recent name="D:\python\WEB框架\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\python" />
       <recent name="D:\python\Mysql数据库开发\mysql基础操作" />
       <recent name="D:\python\Mysql数据库开发\pymysql\mysql基础操作" />
       <recent name="D:\python\网络编程进阶&amp;数据库开发\04 练习题" />
@@ -258,8 +332,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ssh_第二版">
-    <configuration name="查看系统进程" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.test10">
+    <configuration name="____kongbai___" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -267,12 +341,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Linux_ 优化系统" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Linux_ 优化系统/查看系统进程.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/____kongbai___.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -281,7 +355,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="create_sh" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -289,12 +363,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/pyjson" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/pyjson/create_sh.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -303,7 +377,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test10" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -311,12 +385,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WEB框架" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WEB框架/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test10.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -325,7 +399,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ssh" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -333,12 +407,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/连接SSH主机" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/连接SSH主机/ssh.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -347,7 +421,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ssh_第二版" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test7" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -355,12 +429,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/连接SSH主机" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/连接SSH主机/ssh_第二版.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test7.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -371,11 +445,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ssh_第二版" />
-        <item itemvalue="Python.查看系统进程" />
-        <item itemvalue="Python.ssh" />
-        <item itemvalue="Python.create_sh" />
-        <item itemvalue="Python.main" />
+        <item itemvalue="Python.test10" />
+        <item itemvalue="Python.test7" />
+        <item itemvalue="Python.____kongbai___" />
+        <item itemvalue="Python.test2" />
+        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -462,7 +536,45 @@
       <workItem from="1588472493375" duration="695000" />
       <workItem from="1588517158054" duration="1201000" />
       <workItem from="1588642859875" duration="599000" />
-      <workItem from="1588729323396" duration="1662000" />
+      <workItem from="1588729323396" duration="1787000" />
+      <workItem from="1588744205764" duration="900000" />
+      <workItem from="1588805184057" duration="1131000" />
+      <workItem from="1588902555596" duration="4284000" />
+      <workItem from="1589247723394" duration="657000" />
+      <workItem from="1589266667535" duration="599000" />
+      <workItem from="1589269368027" duration="757000" />
+      <workItem from="1590139311946" duration="298000" />
+      <workItem from="1590198959512" duration="18578000" />
+      <workItem from="1590457087640" duration="1898000" />
+      <workItem from="1590543757426" duration="714000" />
+      <workItem from="1591602457709" duration="5425000" />
+      <workItem from="1591670080695" duration="599000" />
+      <workItem from="1591840925113" duration="599000" />
+      <workItem from="1591932376496" duration="966000" />
+      <workItem from="1591933669449" duration="31799000" />
+      <workItem from="1592100128684" duration="5297000" />
+      <workItem from="1592129060415" duration="35840000" />
+      <workItem from="1592445400053" duration="948000" />
+      <workItem from="1592446400077" duration="12080000" />
+      <workItem from="1592618503336" duration="24227000" />
+      <workItem from="1592960214467" duration="20533000" />
+      <workItem from="1593395062798" duration="5813000" />
+      <workItem from="1593418486857" duration="597000" />
+      <workItem from="1593565490667" duration="599000" />
+      <workItem from="1593675261895" duration="3583000" />
+      <workItem from="1593747920242" duration="599000" />
+      <workItem from="1593826568283" duration="455000" />
+      <workItem from="1593913815648" duration="599000" />
+      <workItem from="1594024916300" duration="599000" />
+      <workItem from="1594271320014" duration="7713000" />
+      <workItem from="1594343366221" duration="2012000" />
+      <workItem from="1594429338875" duration="1212000" />
+      <workItem from="1594515950077" duration="2610000" />
+      <workItem from="1594602639013" duration="1322000" />
+      <workItem from="1594696135147" duration="599000" />
+      <workItem from="1594782185182" duration="599000" />
+      <workItem from="1594795813763" duration="3498000" />
+      <workItem from="1594877381490" duration="2329000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;新增了一个test文件&quot;">
       <created>1581489337216</created>
@@ -611,11 +723,18 @@
       <option name="project" value="LOCAL" />
       <updated>1585389389162</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="&quot;python 202000506第二版连接SSH&quot;">
+      <created>1588740239820</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1588740239820</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="347364000" />
+    <option name="totallyTimeSpent" value="550356000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -627,15 +746,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="585" y="115" width="1571" height="1202" extended-state="1" />
+    <frame x="353" y="113" width="1754" height="1449" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49905124" visible="true" weight="0.19299406" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49905124" visible="true" weight="0.29245284" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5009488" side_tool="true" weight="0.17040055" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32815966" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.56033677" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39833713" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2857143" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4489796" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32955405" />
@@ -643,7 +763,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32879817" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32955405" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.20710507" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32955405" />
       <window_info active="true" anchor="bottom" id="TypeScript" order="13" visible="true" weight="0.32911393" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -673,226 +793,13 @@
     <MESSAGE value="&quot;python 202000322增加linux_优化&quot;" />
     <MESSAGE value="&quot;python 202000325增加linux_优化&quot;" />
     <MESSAGE value="&quot;python 202000328开始Django&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;python 202000328开始Django&quot;" />
+    <MESSAGE value="&quot;python 202000506第二版连接SSH&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;python 202000506第二版连接SSH&quot;" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Mysql数据库开发/pymysql/01 连接mysql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mysql数据库开发/pymysql/02 pymysql模块的基本使用.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="47" lean-forward="true" selection-start-line="6" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mysql数据库开发/pymysql/04 pymysql模块之删改查.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="69" column="14" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mysql数据库开发/pymysql/SQL 注入问题.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="743">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Linux_ 优化系统/JSON_更换">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/生产自动化相关/清理redis缓存.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="e#120#132#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Linux_ 优化系统/docker连接数.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zabbix/zabbix_base.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/选课系统作业/选课系统作业.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Linux_ 优化系统/Tcpdump抓包.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1216">
-          <caret line="32" column="6" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
-          <folding>
-            <element signature="e#122#137#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/生产自动化相关/initialize_nginx.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEB框架/index.html" />
-    <entry file="file://C:/Program Files/Python38/Lib/wsgiref/handlers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="182" selection-start-line="182" selection-end-line="182" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_move-v8负载/node_1.sh" />
-    <entry file="file://$PROJECT_DIR$/test2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-          <folding>
-            <element signature="e#128#140#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_move-v8负载/node.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEB框架/main_2.py" />
-    <entry file="file://$PROJECT_DIR$/WEB框架/reg.html" />
-    <entry file="file://$PROJECT_DIR$/WEB框架/views.html" />
-    <entry file="file://$PROJECT_DIR$/WEB框架/login.html" />
-    <entry file="file://$PROJECT_DIR$/WEB框架/templates/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEB框架/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEB框架/wsgi_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python38/Scripts/django-admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEB框架/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Linux_ 优化系统/Nginx_安装">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="4" column="2" selection-start-line="3" selection-start-column="14" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/检查nginx_后端大于20秒/检查大于20秒.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1482">
-          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
-          <folding>
-            <element signature="e#120#132#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/检查nginx_后端大于20秒/监听nginx服务器大于20秒.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/检查nginx_后端大于20秒/老版 大于20秒.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Linux_ 优化系统/initialize">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ELk/window_filebeat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/pyjson/create_sh.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="811">
-          <caret line="132" column="23" selection-end-line="141" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/pyjson/create_shsky.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="147" selection-end-line="147" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_move-v8负载/create_nodes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="150" column="68" selection-start-line="150" selection-start-column="68" selection-end-line="150" selection-end-column="68" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-            <element signature="e#2598#9379#0" />
-            <element signature="e#10776#15995#0" />
-            <element signature="e#16015#18066#0" />
-            <element signature="e#18086#20176#0" />
-            <element signature="e#22073#22612#0" />
-            <element signature="e#22628#23165#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/queu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2974">
-          <caret line="82" column="29" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/pyjson/create_sh.py" />
+    <entry file="file://$USER_HOME$/Desktop/pyjson/create_shsky.py" />
+    <entry file="file://$USER_HOME$/Desktop/queu.py" />
     <entry file="file://$PROJECT_DIR$/WEB框架/01 JD_server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="626">
@@ -921,9 +828,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/信任传输.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/信任传输.py" />
     <entry file="file://$PROJECT_DIR$/ELk/filebeat.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -943,17 +848,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Linux_ 优化系统/xxx.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="11" selection-start-line="11" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Linux_ 优化系统/查看系统进程.html" />
     <entry file="file://$PROJECT_DIR$/连接SSH主机/ssh.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
+        <state relative-caret-position="918">
           <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
           <folding>
             <element signature="e#117#132#0" expanded="true" />
@@ -961,31 +859,299 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Linux_ 优化系统/查看系统进程.py">
+    <entry file="file://$PROJECT_DIR$/Linux_ 优化系统/Nginx_安装">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="3051">
+          <caret line="113" column="21" selection-start-line="113" selection-start-column="21" selection-end-line="113" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Linux_ 优化系统/xxx.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" selection-start-line="11" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/日志格式/nginx日志格式.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
+        <state relative-caret-position="405">
           <caret line="15" column="76" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Linux_ 优化系统/proxy_site">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1422">
-          <caret line="59" column="4" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/连接SSH主机/ssh_第二版.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="69" column="80" lean-forward="true" selection-start-line="69" selection-start-column="80" selection-end-line="69" selection-end-column="80" />
+        <state relative-caret-position="1971">
+          <caret line="76" column="34" lean-forward="true" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Linux_ 优化系统/查看系统进程.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.074/liveapi.py" />
+    <entry file="file://$PROJECT_DIR$/test3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" selection-start-line="24" selection-end-line="34" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Linux_ 优化系统/winds_filebeat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#123#137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面像对象讲笔记/AG.py" />
+    <entry file="file://$USER_HOME$/Desktop/Django/API/LIVE_API/tests.py" />
+    <entry file="file://$USER_HOME$/Desktop/liveapionline/liveapi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-862000574/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="5265" column="16" selection-start-line="5265" selection-start-column="8" selection-end-line="5265" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python38/Lib/hashlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2376">
+          <caret line="88" column="22" selection-start-line="88" selection-start-column="22" selection-end-line="88" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-862000574/_md5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python38/Lib/site-packages/rsa/pem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rsa.py" />
+    <entry file="file://$PROJECT_DIR$/CQ_Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2646">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+          <folding>
+            <element signature="e#118#153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DS_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1053">
+          <caret line="46" column="23" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="23" />
+          <folding>
+            <element signature="e#118#153#0" expanded="true" />
+            <element signature="e#1424#1945#0" />
+            <element signature="e#1971#2615#0" />
+            <element signature="e#2643#3287#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Linux_ 优化系统/proxy_site">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_move-v8负载/create_nodes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="829">
+          <caret line="163" column="24" selection-start-line="163" selection-start-column="24" selection-end-line="163" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#10776#15995#0" />
+            <element signature="e#16015#18066#0" />
+            <element signature="e#18086#20176#0" />
+            <element signature="e#22073#22612#0" />
+            <element signature="e#22628#23165#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/____kongbai___.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <folding>
+            <element signature="e#128#162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/检查nginx_后端大于20秒/检查大于20秒.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="54" column="41" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+          <folding>
+            <element signature="e#120#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ompany_rsa_private_key.pem">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/检查nginx_后端大于20秒/监听nginx服务器大于20秒.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="699">
+          <caret line="52" selection-start-line="52" selection-end-line="54" selection-end-column="40" />
+          <folding>
+            <element signature="e#258#270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company_rsa_public_key.pem">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="29" selection-start-line="29" selection-end-line="30" />
+          <folding>
+            <element signature="e#48#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding>
+            <element signature="e#118#153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AG_Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="37" selection-start-line="37" selection-end-line="37" selection-end-column="22" />
+          <folding>
+            <element signature="e#118#153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BG_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3213">
+          <caret line="127" column="31" selection-start-line="127" selection-start-column="31" selection-end-line="127" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1728">
+          <caret line="69" column="20" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/检查nginx_后端大于20秒/检查大于80秒.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="60" column="48" lean-forward="true" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
+          <folding>
+            <element signature="e#120#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/检查nginx_后端大于20秒/老版 大于20秒.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="53" column="31" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+          <folding>
+            <element signature="e#128#140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1213">
+          <caret line="134" selection-start-line="134" selection-end-line="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/des.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,11 +1,5 @@
 # Author : laobai
 # @Time : 2020/2/15 15:37
-# @Site : 
-# @File : 监听nginx服务器大于20秒.py
-# @Software: PyCharm 
-# -*- coding: utf-8 -*-
-# Author : laobai
-# @Time : 2020/2/15 15:37
 # @Site :
 # @File : 监听nginx服务器大于20秒.py
 # @Software: PyCharm
@@ -50,8 +44,28 @@ while True:
         for i in tuple_list:
             print(i.split(':')[0])
             if uname == i.split(':')[0] and r.exists(i) != 1:
+                T1 = 'qe'
+                T2 = i.split(':')[0]
+                T3 = i.split(':')[1].split(',')[0]
+                T4 = i.split(':')[1].split(',')[1].split('/api/')[1].split('/')[1]
+                print('********************')
+                print('is ok')
+                print('T1', T1)
+                print('T2', T2)
+                print('T3:', T3)
+                print('T4:', T4)
+                print('********************')
+                '''
+                ********************
+                is ok
+                T1 qe
+                T2 172.31.34.21
+                T3: 48169
+                T4: GetActRedScopeRainConfig
+                ********************
+                 '''
+
                 os.system(
-                    '/opt/zabbix_server/agentd-shell/politeness_docker.sh' + " " + i.split(':')[1] + " " + i.split(':')[
-                        0] + " " + 'qe')
+                    '/opt/zabbix_server/agentd-shell/politeness_docker.sh' + " " + T3 + " " + T2 + " " + T1 + " " + T4)
                 r.set(i, '1', ex=60, nx=True)
         node_id = []

@@ -1,46 +1,75 @@
-# Author : laobai
-# @Time : 2020/2/15 15:37
-# @Site :
-# @File : 监听nginx服务器大于20秒.py
-# @Software: PyCharm
-# -*- coding: utf-8 -*-
-import redis
-import json,sys,os
+# -*- coding: UTF-8 -*-
+# ! /usr/bin/env python
+import Crypto
+import base64
+from Crypto.Cipher import PKCS1_v1_5 as PKCS1_v1_5_cipper
+from Crypto.Signature import PKCS1_v1_5
+from Crypto.PublicKey import RSA
+from Crypto.Hash import SHA
+
+import Crypto
 import time
-import socket
-import subprocess
-hostName = socket.gethostname()
-uname = hostName.split(".")[0].split('ip-')[1].replace('-','.')
-redis_ip = '172.31.41.93'
-r = redis.Redis(host=redis_ip, port=6379,db=0,decode_responses=True)
-class RedisHelper:
-    def __init__(self):
-        self.__conn = r
-        self.chan_sub = 'fm104.5'
-        self.chan_pub = 'fm104.5'
 
-    def public(self, msg):
-        self.__conn.publish(self.chan_pub, msg)
-        return True
-
-    def subscribe(self):
-        pub = self.__conn.pubsub()
-        pub.subscribe(self.chan_sub)
-        pub.parse_response()
-        return pub
+# 使用 rsa库进行RSA签名和加解密
 
 
-obj = RedisHelper()
-redis_sub = obj.subscribe()
-node_id = []
-while True:
-    msg = redis_sub.parse_response()
-    if msg:
-        node_id.append(msg[2])
-        tuple_list = list(set(node_id))
-        for i in tuple_list:
-            print( i.split(':')[0])
-            if uname == i.split(':')[0] and r.exists(i) != 1:
-                os.system('/opt/zabbix_server/agentd-shell/politeness_docker.sh' +" " + i.split(':')[1] + " " + i.split(':')[0] + " " + 'de')
-                r.set(i,'1',ex=60,nx=True)
-        node_id = []
+class RsaUtil(object):
+    PUBLIC_KEY_PATH = 'company_rsa_public_key.pem'  # 公钥
+    PRIVATE_KEY_PATH = 'ompany_rsa_private_key.pem'  # 私钥
+
+    # 初始化key
+    def __init__(self,
+                 company_pub_file=PUBLIC_KEY_PATH,
+                 company_pri_file=PRIVATE_KEY_PATH):
+
+        if company_pub_file:
+            self.company_public_key = RSA.importKey(open(company_pub_file).read())
+        if company_pri_file:
+            self.company_private_key = RSA.importKey(open(company_pri_file).read())
+
+
+
+    def sign_by_private_key(self, message):
+        """私钥签名.
+            :param message: 需要签名的内容.
+            签名之后，需要转义后输出
+        """
+        cipher = PKCS1_v1_5.new(self.company_private_key)  # 用公钥签名，会报错 raise TypeError("No private key") 如下
+        # if not self.has_private():
+        #   raise TypeError("No private key")
+        hs = SHA.new(message)
+        signature = cipher.sign(hs)
+        return base64.b64encode(signature)
+
+    def verify_by_public_key(self, message, signature):
+        """公钥验签.
+            :param message: 验签的内容.
+            :param signature: 对验签内容签名的值（签名之后，会进行b64encode转码，所以验签前也需转码）.
+        """
+        signature = base64.b64decode(signature)
+        cipher = PKCS1_v1_5.new(self.company_public_key)
+        hs = SHA.new(message)
+
+        # digest = hashlib.sha1(message).digest()  # 内容摘要的生成方法有很多种，只要签名和解签用的是一样的就可以
+
+        return cipher.verify(hs, signature)
+
+now_time = str(int(time.time()))
+
+
+message = 'hellworldhellworldhellworldhell'
+print("明文内容：>>> ")
+print(message)
+rsaUtil = RsaUtil()
+sign = rsaUtil.sign_by_private_key(bytearray(message.encode(encoding='utf-8')))
+print("签名结果：>>> ")
+sign_val = (str(sign,'utf-8'))
+print(sign)
+print("验签结果：>>> ")
+print(rsaUtil.verify_by_public_key(bytearray(message.encode(encoding='utf-8')), sign))
+
+
+a = {
+    'timestamp':now_time,
+    'sign': sign_val
+}

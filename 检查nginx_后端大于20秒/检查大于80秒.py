@@ -13,7 +13,6 @@ import requests
 hostName = socket.gethostname()
 #uname = hostName.split(".")
 uname = hostName.split(".")[0].split('ip-')[1].replace('-','.')
-print(uname)
 r = redis.Redis(host=uname, port=6379,db=0,decode_responses=True)
 cmd = 'ps -fe | grep tail | grep -v "grep"'
 a = os.popen(cmd)  # 返回一个对象
@@ -57,16 +56,14 @@ def stat_logs(*args):
             #print(dict_line)
             if dict_line['upstream_response_time'] != '-':
                 new_list = dict_line['upstream_response_time'].split(',')
-                print(new_list)
-
+                # print(new_list)
+                # print('------',len(new_list))
                 # print(int(float(new_list[0])))
-                # print(dict_line)
                 try:
-                    if len(new_list) > 1:
+                    if len(new_list) >= 1:
                         new_addr = dict_line['upstream_addr'].split(',')
-                        print(new_addr)
                         new_dict = dict(zip(new_addr,new_list))
-                        print(new_list)
+                        # print(new_dict)
                         for k,v in new_dict.items():
                             if float(v) > 50:
                                 obj.public(k)
