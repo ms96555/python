@@ -1,33 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/连接SSH主机/ssh_第二版.py" line="141" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="b8dac206-8a98-40b8-8e81-f1224ba3e91e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AG_Test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BG_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CQ_Test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DS_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linux_ 优化系统/winds_filebeat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/____kongbai___.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company_rsa_public_key.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/des.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ompany_rsa_private_key.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/检查nginx_后端大于20秒/检查大于80秒.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_move-v8负载/laobai.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/检查nginx_后端大于20秒/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/检查nginx_后端大于20秒/真人转帐失败报警.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/检查真人订单转帐失败/live_zabbix优化.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_move-v8负载/create_nodes.py" beforeDir="false" afterPath="$PROJECT_DIR$/node_move-v8负载/create_nodes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/检查nginx_后端大于20秒/检查大于20秒.py" beforeDir="false" afterPath="$PROJECT_DIR$/检查nginx_后端大于20秒/检查大于20秒.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/检查nginx_后端大于20秒/监听nginx服务器大于20秒.py" beforeDir="false" afterPath="$PROJECT_DIR$/检查nginx_后端大于20秒/监听nginx服务器大于20秒.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,97 +63,6 @@
   <component name="FavoritesManager">
     <favorites_list name="python" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1213">
-              <caret line="134" selection-start-line="134" selection-end-line="135" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test5.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-              <folding>
-                <element signature="e#118#153#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/des.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AG_Test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="37" selection-start-line="37" selection-end-line="37" selection-end-column="22" />
-              <folding>
-                <element signature="e#118#153#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BG_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3213">
-              <caret line="127" column="31" selection-start-line="127" selection-start-column="31" selection-end-line="127" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test6.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1134">
-              <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test7.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1728">
-              <caret line="69" column="20" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test8.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="53" column="31" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
-              <folding>
-                <element signature="e#128#140#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -178,162 +71,45 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>zabbix</find>
-      <find>msg</find>
-      <find>elk</find>
-      <find>PATH_INFO</find>
-      <find>os</find>
-      <find>os.</find>
-      <find>Connect</find>
-      <find>ssh</find>
-      <find>get_Filesize</find>
-      <find>mode</find>
-      <find>sha</find>
-      <find>md5</find>
-      <find>encoding</find>
-      <find>company_rsa_public_key\</find>
-      <find>company_rsa_public_key</find>
-      <find>base</find>
-      <find>git</find>
-      <find>aes</find>
-      <find>gitlab</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Mysql数据库开发/pymysql/SQL 注入问题.py" />
-        <option value="$PROJECT_DIR$/Mysql数据库开发/pymysql/04 pymysql模块之删改查.py" />
-        <option value="$PROJECT_DIR$/Linux_ 优化系统/Tcpdump抓包.py" />
-        <option value="$PROJECT_DIR$/Linux_ 优化系统/xxx.conf" />
-        <option value="$PROJECT_DIR$/Linux_ 优化系统/Nginx_安装" />
-        <option value="$PROJECT_DIR$/WEB框架/01index.html" />
-        <option value="$PROJECT_DIR$/WEB框架/01 JD_server.py" />
-        <option value="$PROJECT_DIR$/WEB框架/wsgi_server.py" />
-        <option value="$PROJECT_DIR$/WEB框架/login.html" />
-        <option value="$PROJECT_DIR$/WEB框架/main_2.py" />
-        <option value="$PROJECT_DIR$/WEB框架/reg.html" />
-        <option value="$PROJECT_DIR$/WEB框架/views.html" />
-        <option value="$PROJECT_DIR$/WEB框架/main.py" />
-        <option value="$PROJECT_DIR$/WEB框架/views.py" />
-        <option value="$PROJECT_DIR$/WEB框架/urls.py" />
-        <option value="$PROJECT_DIR$/Linux_ 优化系统/initialize" />
-        <option value="$PROJECT_DIR$/日志格式/nginx日志格式.py" />
-        <option value="$PROJECT_DIR$/ELk/window_filebeat.py" />
-        <option value="$USER_HOME$/Desktop/pyjson/create_sh.py" />
-        <option value="$USER_HOME$/Desktop/pyjson/create_shsky.py" />
-        <option value="$PROJECT_DIR$/连接SSH主机/ssh.py" />
-        <option value="$PROJECT_DIR$/ELk/filebeat_restart.py" />
-        <option value="$PROJECT_DIR$/Linux_ 优化系统/查看系统进程.html" />
-        <option value="$PROJECT_DIR$/Linux_ 优化系统/查看系统进程.py" />
-        <option value="$PROJECT_DIR$/连接SSH主机/ssh_第二版.py" />
-        <option value="$PROJECT_DIR$/test4.py" />
-        <option value="$PROJECT_DIR$/test3.py" />
-        <option value="$PROJECT_DIR$/Linux_ 优化系统/winds_filebeat.py" />
-        <option value="$PROJECT_DIR$/面像对象讲笔记/AG.py" />
-        <option value="$PROJECT_DIR$/AG_Test.py" />
-        <option value="$PROJECT_DIR$/面像对象讲笔记/DS_test.py" />
-        <option value="$PROJECT_DIR$/Linux_ 优化系统/proxy_site" />
-        <option value="$PROJECT_DIR$/DS_test.py" />
-        <option value="$PROJECT_DIR$/BG_test.py" />
-        <option value="$PROJECT_DIR$/CQ_Test.py" />
-        <option value="$PROJECT_DIR$/检查nginx_后端大于20秒/检查大于20秒.py" />
-        <option value="$PROJECT_DIR$/rsa.py" />
-        <option value="$PROJECT_DIR$/node_move-v8负载/create_nodes.py" />
-        <option value="$PROJECT_DIR$/test5.py" />
-        <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/test6.py" />
-        <option value="$PROJECT_DIR$/ompany_rsa_private_key.pem" />
-        <option value="$PROJECT_DIR$/company_rsa_public_key.pem" />
-        <option value="$PROJECT_DIR$/test2.py" />
-        <option value="$PROJECT_DIR$/____kongbai___.py" />
-        <option value="$PROJECT_DIR$/检查nginx_后端大于20秒/检查大于80秒.py" />
-        <option value="$PROJECT_DIR$/检查nginx_后端大于20秒/监听nginx服务器大于20秒.py" />
-        <option value="$PROJECT_DIR$/test7.py" />
-        <option value="$PROJECT_DIR$/test8.py" />
-        <option value="$PROJECT_DIR$/test10.py" />
-        <option value="$PROJECT_DIR$/des.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-16" />
-    <option name="y" value="23" />
-    <option name="width" value="1466" />
-    <option name="height" value="926" />
-  </component>
+  <component name="ProjectId" id="1ewo9PnVWl27XfDAeqC64aQWtTw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="检查nginx_后端大于20秒" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/检查真人订单转帐失败" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\python" />
-      <recent name="D:\python\检查nginx_后端大于20秒" />
-      <recent name="D:\python\面像对象讲笔记" />
-      <recent name="D:\python\WEB框架\templates" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\python" />
       <recent name="D:\python\Mysql数据库开发\mysql基础操作" />
       <recent name="D:\python\Mysql数据库开发\pymysql\mysql基础操作" />
       <recent name="D:\python\网络编程进阶&amp;数据库开发\04 练习题" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/检查真人订单转帐失败" />
+      <recent name="$PROJECT_DIR$/检查nginx_后端大于20秒" />
+      <recent name="D:\python" />
+      <recent name="D:\python\检查nginx_后端大于20秒" />
+      <recent name="D:\python\面像对象讲笔记" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.test10">
-    <configuration name="____kongbai___" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.test (1)">
+    <configuration name="真人转帐失败报警" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -341,12 +117,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/检查nginx_后端大于20秒" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/____kongbai___.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/检查nginx_后端大于20秒/真人转帐失败报警.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -355,7 +131,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/检查nginx_后端大于20秒" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/检查nginx_后端大于20秒/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -399,28 +197,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="test7" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -445,13 +221,25 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.真人转帐失败报警" />
         <item itemvalue="Python.test10" />
         <item itemvalue="Python.test7" />
-        <item itemvalue="Python.____kongbai___" />
-        <item itemvalue="Python.test2" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -575,6 +363,19 @@
       <workItem from="1594782185182" duration="599000" />
       <workItem from="1594795813763" duration="3498000" />
       <workItem from="1594877381490" duration="2329000" />
+      <workItem from="1595241865694" duration="3522000" />
+      <workItem from="1595248910436" duration="246000" />
+      <workItem from="1595300839777" duration="21235000" />
+      <workItem from="1595394601033" duration="1151000" />
+      <workItem from="1595560881848" duration="2642000" />
+      <workItem from="1595666862521" duration="945000" />
+      <workItem from="1595738725072" duration="2508000" />
+      <workItem from="1595838959708" duration="7909000" />
+      <workItem from="1595907529519" duration="12971000" />
+      <workItem from="1595998664259" duration="396000" />
+      <workItem from="1596366401213" duration="29000" />
+      <workItem from="1596537780784" duration="502000" />
+      <workItem from="1596860477158" duration="545000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;新增了一个test文件&quot;">
       <created>1581489337216</created>
@@ -733,9 +534,6 @@
     <option name="localTasksCounter" value="23" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="550356000" />
-  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -744,34 +542,6 @@
       <are-packages-shown value="true" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="353" y="113" width="1754" height="1449" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49905124" visible="true" weight="0.29245284" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.5009488" side_tool="true" weight="0.17040055" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32815966" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2857143" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4489796" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32955405" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32879817" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.20710507" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32955405" />
-      <window_info active="true" anchor="bottom" id="TypeScript" order="13" visible="true" weight="0.32911393" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.32962504" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -796,364 +566,75 @@
     <MESSAGE value="&quot;python 202000506第二版连接SSH&quot;" />
     <option name="LAST_COMMIT_MESSAGE" value="&quot;python 202000506第二版连接SSH&quot;" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/pyjson/create_sh.py" />
-    <entry file="file://$USER_HOME$/Desktop/pyjson/create_shsky.py" />
-    <entry file="file://$USER_HOME$/Desktop/queu.py" />
-    <entry file="file://$PROJECT_DIR$/WEB框架/01 JD_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEB框架/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="27" selection-start-line="27" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEB框架/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python38/Lib/site-packages/paramiko/pkey.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="306" selection-start-line="306" selection-end-line="306" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/信任传输.py" />
-    <entry file="file://$PROJECT_DIR$/ELk/filebeat.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ELk/filebeat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1938" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ELk/filebeat_restart.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Linux_ 优化系统/查看系统进程.html" />
-    <entry file="file://$PROJECT_DIR$/连接SSH主机/ssh.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-          <folding>
-            <element signature="e#117#132#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Linux_ 优化系统/Nginx_安装">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3051">
-          <caret line="113" column="21" selection-start-line="113" selection-start-column="21" selection-end-line="113" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Linux_ 优化系统/xxx.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" selection-start-line="11" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/日志格式/nginx日志格式.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="76" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/连接SSH主机/ssh_第二版.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1971">
-          <caret line="76" column="34" lean-forward="true" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Linux_ 优化系统/查看系统进程.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.074/liveapi.py" />
-    <entry file="file://$PROJECT_DIR$/test3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" selection-start-line="24" selection-end-line="34" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Linux_ 优化系统/winds_filebeat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#123#137#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/面像对象讲笔记/AG.py" />
-    <entry file="file://$USER_HOME$/Desktop/Django/API/LIVE_API/tests.py" />
-    <entry file="file://$USER_HOME$/Desktop/liveapionline/liveapi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-862000574/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="5265" column="16" selection-start-line="5265" selection-start-column="8" selection-end-line="5265" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python38/Lib/hashlib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2376">
-          <caret line="88" column="22" selection-start-line="88" selection-start-column="22" selection-end-line="88" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-862000574/_md5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python38/Lib/site-packages/rsa/pem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rsa.py" />
-    <entry file="file://$PROJECT_DIR$/CQ_Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2646">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
-          <folding>
-            <element signature="e#118#153#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DS_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1053">
-          <caret line="46" column="23" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="23" />
-          <folding>
-            <element signature="e#118#153#0" expanded="true" />
-            <element signature="e#1424#1945#0" />
-            <element signature="e#1971#2615#0" />
-            <element signature="e#2643#3287#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Linux_ 优化系统/proxy_site">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_move-v8负载/create_nodes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="829">
-          <caret line="163" column="24" selection-start-line="163" selection-start-column="24" selection-end-line="163" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-            <element signature="e#10776#15995#0" />
-            <element signature="e#16015#18066#0" />
-            <element signature="e#18086#20176#0" />
-            <element signature="e#22073#22612#0" />
-            <element signature="e#22628#23165#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/____kongbai___.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding>
-            <element signature="e#128#162#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/检查nginx_后端大于20秒/检查大于20秒.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="54" column="41" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
-          <folding>
-            <element signature="e#120#132#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ompany_rsa_private_key.pem">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/检查nginx_后端大于20秒/监听nginx服务器大于20秒.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="699">
-          <caret line="52" selection-start-line="52" selection-end-line="54" selection-end-column="40" />
-          <folding>
-            <element signature="e#258#270#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/company_rsa_public_key.pem">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="29" selection-start-line="29" selection-end-line="30" />
-          <folding>
-            <element signature="e#48#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          <folding>
-            <element signature="e#118#153#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AG_Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="37" selection-start-line="37" selection-end-line="37" selection-end-column="22" />
-          <folding>
-            <element signature="e#118#153#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BG_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3213">
-          <caret line="127" column="31" selection-start-line="127" selection-start-column="31" selection-end-line="127" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test7.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1728">
-          <caret line="69" column="20" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test10.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test6.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/检查nginx_后端大于20秒/检查大于80秒.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="60" column="48" lean-forward="true" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
-          <folding>
-            <element signature="e#120#132#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/检查nginx_后端大于20秒/老版 大于20秒.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test8.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="53" column="31" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
-          <folding>
-            <element signature="e#128#140#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1213">
-          <caret line="134" selection-start-line="134" selection-end-line="135" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/des.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state width="2518" height="257" key="GridCell.Tab.0.bottom" timestamp="1595855337052">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="636" key="GridCell.Tab.0.bottom/-1440.23.1440.877/0.23.3008.1620@0.23.3008.1620" timestamp="1595248096837" />
+    <state width="2518" height="257" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1595855337052" />
+    <state width="2518" height="634" key="GridCell.Tab.0.bottom/0.23.2560.1366@0.23.2560.1366" timestamp="1595301215080" />
+    <state width="2518" height="336" key="GridCell.Tab.0.bottom/0.23.2560.1368@0.23.2560.1368" timestamp="1595245789779" />
+    <state width="2518" height="302" key="GridCell.Tab.0.bottom/0.23.2560.1369@0.23.2560.1369" timestamp="1595336704669" />
+    <state width="2518" height="257" key="GridCell.Tab.0.center" timestamp="1595855337050">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="636" key="GridCell.Tab.0.center/-1440.23.1440.877/0.23.3008.1620@0.23.3008.1620" timestamp="1595248096836" />
+    <state width="2518" height="257" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1595855337050" />
+    <state width="2518" height="634" key="GridCell.Tab.0.center/0.23.2560.1366@0.23.2560.1366" timestamp="1595301215079" />
+    <state width="2518" height="336" key="GridCell.Tab.0.center/0.23.2560.1368@0.23.2560.1368" timestamp="1595245789778" />
+    <state width="2518" height="302" key="GridCell.Tab.0.center/0.23.2560.1369@0.23.2560.1369" timestamp="1595336704668" />
+    <state width="2518" height="257" key="GridCell.Tab.0.left" timestamp="1595855337049">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="636" key="GridCell.Tab.0.left/-1440.23.1440.877/0.23.3008.1620@0.23.3008.1620" timestamp="1595248096835" />
+    <state width="2518" height="257" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1595855337049" />
+    <state width="2518" height="634" key="GridCell.Tab.0.left/0.23.2560.1366@0.23.2560.1366" timestamp="1595301215078" />
+    <state width="2518" height="336" key="GridCell.Tab.0.left/0.23.2560.1368@0.23.2560.1368" timestamp="1595245789777" />
+    <state width="2518" height="302" key="GridCell.Tab.0.left/0.23.2560.1369@0.23.2560.1369" timestamp="1595336704668" />
+    <state width="2518" height="257" key="GridCell.Tab.0.right" timestamp="1595855337051">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="636" key="GridCell.Tab.0.right/-1440.23.1440.877/0.23.3008.1620@0.23.3008.1620" timestamp="1595248096836" />
+    <state width="2518" height="257" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1595855337051" />
+    <state width="2518" height="634" key="GridCell.Tab.0.right/0.23.2560.1366@0.23.2560.1366" timestamp="1595301215080" />
+    <state width="2518" height="336" key="GridCell.Tab.0.right/0.23.2560.1368@0.23.2560.1368" timestamp="1595245789778" />
+    <state width="2518" height="302" key="GridCell.Tab.0.right/0.23.2560.1369@0.23.2560.1369" timestamp="1595336704669" />
+    <state width="2518" height="302" key="GridCell.Tab.1.bottom" timestamp="1595336704671">
+      <screen x="0" y="23" width="2560" height="1369" />
+    </state>
+    <state width="2518" height="544" key="GridCell.Tab.1.bottom/0.23.2560.1368@0.23.2560.1368" timestamp="1595245371786" />
+    <state width="2518" height="302" key="GridCell.Tab.1.bottom/0.23.2560.1369@0.23.2560.1369" timestamp="1595336704671" />
+    <state width="2518" height="302" key="GridCell.Tab.1.center" timestamp="1595336704670">
+      <screen x="0" y="23" width="2560" height="1369" />
+    </state>
+    <state width="2518" height="544" key="GridCell.Tab.1.center/0.23.2560.1368@0.23.2560.1368" timestamp="1595245371781" />
+    <state width="2518" height="302" key="GridCell.Tab.1.center/0.23.2560.1369@0.23.2560.1369" timestamp="1595336704670" />
+    <state width="2518" height="302" key="GridCell.Tab.1.left" timestamp="1595336704669">
+      <screen x="0" y="23" width="2560" height="1369" />
+    </state>
+    <state width="2518" height="544" key="GridCell.Tab.1.left/0.23.2560.1368@0.23.2560.1368" timestamp="1595245371779" />
+    <state width="2518" height="302" key="GridCell.Tab.1.left/0.23.2560.1369@0.23.2560.1369" timestamp="1595336704669" />
+    <state width="2518" height="302" key="GridCell.Tab.1.right" timestamp="1595336704670">
+      <screen x="0" y="23" width="2560" height="1369" />
+    </state>
+    <state width="2518" height="544" key="GridCell.Tab.1.right/0.23.2560.1368@0.23.2560.1368" timestamp="1595245371784" />
+    <state width="2518" height="302" key="GridCell.Tab.1.right/0.23.2560.1369@0.23.2560.1369" timestamp="1595336704670" />
+    <state x="781" y="346" key="SettingsEditor" timestamp="1595245070309">
+      <screen x="0" y="23" width="2560" height="1368" />
+    </state>
+    <state x="781" y="346" key="SettingsEditor/0.23.2560.1368@0.23.2560.1368" timestamp="1595245070309" />
+    <state x="861" y="293" width="837" height="825" key="find.popup" timestamp="1595307830630">
+      <screen x="0" y="23" width="2560" height="1369" />
+    </state>
+    <state x="861" y="293" width="837" height="825" key="find.popup/0.23.2560.1369@0.23.2560.1369" timestamp="1595307830630" />
+    <state x="945" y="331" width="670" height="676" key="search.everywhere.popup" timestamp="1595917483178">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="945" y="331" width="670" height="676" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1595917483178" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/python$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1595841071094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/检查nginx_后端大于20秒" />
+    <SUITE FILE_PATH="coverage/python$.coverage" NAME="真人转帐失败报警 Coverage Results" MODIFIED="1595311411010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/检查nginx_后端大于20秒" />
+    <SUITE FILE_PATH="coverage/python$test.coverage" NAME="test Coverage Results" MODIFIED="1595316553847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

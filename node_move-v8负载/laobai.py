@@ -1,3 +1,10 @@
+# Author : Sky 
+# @Time : 7/24/20 3:34 下午
+# @Site : 
+# @File : laobai.py
+# @Software: PyCharm 
+# -*- coding: utf-8 -*-
+
 import getpass, requests
 import jenkins, sys, os, json, paramiko
 import xml.etree.ElementTree as ET
@@ -15,7 +22,7 @@ with open('/scripts/conf.json', 'r', encoding='utf-8')as f:
     load_dict = json.load(f)
 config_name = load_dict["initialize"]["b,站点配置"]
 name = load_dict["initialize"]["a,站点标识"]
-key = "-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEAq5YRYowMHDJsvo3dlchOTwbfLsgczPa01tQDJ2vrVz/2TCQNAEdElLrFH2sf\n4tGJV/krP1tpfgFDiGcoRDDFz72LACd6s0uW6A5QepkhDM/0m29FxqFl3nO+2/XY1YeS0pe01+ws\nunS0sGT/Do+A9jW7d77+fnOxD1Bj6GWHy6ae0bLMoCpOJ+hnPiooigjCaj3FYapPgsGjLFMuBE+Z\nH1whknLvcarJFNaJQRN9ctNNZlQJBtVH+M+XAeMHRBHUzChTAN2Tm5tjenv35GspcqUdnL7mc0Wu\nt4U+kquDuJT8jfdX8tAXNusg8EyjLhXC/cs+HhtS3qg79OURbwFAlQIDAQABAoIBACmtA3/6IB7h\nKISIFKACzPJo6uCD/mrSKU5cpH94uOqyQHJx9y5wIPo2+xYMgOwolMFnZde3rkHKsMp6s88MQZ+Z\nnB9nd2gBHiAzCd0dQGfKQtFWD46VORb06hCnAAmtKj44VtZzKNII8rI9da3lsR8cIfKN02aHVyQv\nFHUn4/nUkQcQcMmiI8/Cdbz0Poy6hh26miqFViEDmP/AQKDHNoKPxt4PSW9UsphW3+kgNiyBbPEM\nHjtBfTtuz3/th8Ecl8UXQXOR6gjx/ryLlkAwadjbc3bqiCHwnyjjq6WjUrMPE6b2qcLyqqTq7wxD\nz4CIwg9qG1jgFKAeqyE368O+hikCgYEA+/5yWr5+dq0uoQp4b7AgKHpjfsDkVJMvxLuZzw4EDSJs\nZlHv4T7avb/bj/A6i9IqotgqdIJHINudsq2OwhbZuBFBZnP5KB6yDoaD8z6yLUcBtsx9hWvPM/Wb\nqHy5vMKCRwLNBKANtxB9hvNq2P93nchRd1TD253M3tFfD/KK5UMCgYEArlBhrGucgg0agIKYSaRF\nxO/wBWExA63USgKSURUckMCGuPBSjxrxuNg4sbeEAfzqAH3/phcBneJM5TfYwyfwRiGevMW0oRfI\n4fR6bw1hE/O3BFnbTZgQVqTrJ1pwoUIEk81SxvZPhYAL0ikYR+Bz97mbLvwbY9KTMq7YPEn1eUcC\ngYEAlt1rETDi/aIJPJjMKfHEDvfXAVfyW0ATZTD7kJ7Phh2J0GhVuQCsbNWkWbR1GKimpf/MyxwE\nAYP6EbMeuMx9ZFnQUco07PQTneaisMpkWf8c45fhvjMhRfZRTrn9aSj6XhErNQ2tqF/TByxMV8X6\nkxgOzeaNq7n5oZyv0RhgV4kCgYAlsyDMx6FbxzW6IYSKOMsWIsaIg1K0dv3428GFY8l/zQPWL7PL\nW4p37dulJAma3HZHkPiflU42NWFoGcH5w0OGB3NrZF8CkEBUDioEpqIeTJGCkWSKzZ6K/rQVGMxP\nNBYFWVzTxyW/u8fStiyYLwUlyLC1YrURy9MmHQaLU3uRtQKBgFI2QKYeQKC1S72UehnBOiARwecT\niW7aSw2oL1gQCXw6xw52x6uVKOFAk6JJHpEiSQTWzcxpvyzoLTaeG9BVF62JpWznhKGeSv6+IK8d\nE77wGN7/3xDg6f0eH+B7ghdIeWloAshhr8dFjKWOlUql/zzDzEI7w/zIwO4AVuCXmv5x\n-----END RSA PRIVATE KEY-----"
+key = "-----BEGIN RSA PRIVATE KEY-----\nMIIEpAIBAAKCAQEAwV7ZFETEdnwNsCsCkJAOGduIVtTgBj1VOBVfB5VzebhiQFp9\n4t2xexzYAkLxWWUR2CgsddN1awWCETHzbCEKmGp4NHr9ZuTeFBN5Igt3PeWO0D7N\nG8G8sgHa3BZ6cTgbS0OoEuQwTnAcag3MyNwdYw+d64N1EcMA5SByaGC/CpIEOkXL\n8mogLjiy+ev0qiphAnUv+OfpgdLB8moxvKaz4KjwqbIcF55yfz4Au62yIPDrBzys\nIPDHiYmdE3Cm3ZqFyQD+FKwLj/agnShsCmUUCCN7LsbKsoTHdVkl7/KoWKSKv2nn\nImOk5rUJsJeLDJzIOBimQLYs8CkuNgfCuLrWNwIDAQABAoIBACR3RYq7+Sy68j3h\nrocik3Yu30Q4utKSaGq+JQCiH3e53NVz+z94PUsRQm8Svr7z/2x7Dv9dVExNapzh\nhZ1DkeLyWR7UfssTqAmzLmnMLb1/d/IvlbCBVZtgHCzbFFYblZIY/S4q2C1CmSkq\n1w6d6/DNdiN+0+n4k0eiWdDzRbOxR6I6WCngQsn3lrY0JrgQY4LllgHc8pjELX7g\nxKfsDPD71mdWZ14DKbvTpx8ry/KmCzduNR5XW2jhNu7kpbnOfXX6V/GBmfXWd1IN\nZ4Bau9A36GEr5+fBwc5wuOvqqgxOzOoEs00t463Js316G7+G9lwpu9mQpZS+5+eL\n9nAjxwkCgYEA5gaZr7D7Aa+p6Ey113iqQeaf+Nw2qz3S4xLXxPjmZ1lbmbunm9xD\nJ8HLlGCYLN+hPn9XerQVpGJH3fmCImLxa9tOTvBNwkKq9N7xLuyVwsMHGZztv1pd\n/PEhRXvSLaFEgGvaeY51h2qIf0Girj9XtwDIDJlU0vYOav8jEofriGMCgYEA1zSl\ndAPIDLzwgTBaMuWVLOXpyTI2+1M1PocehVuxHmC3l7KjZPwbWqtF6SNy6nk3sLnT\nvaUv8bR4NOB7EUf4Q2iDZYIWFvAd4/L6qRoI+xTalQqfiqhMtMNXr3krOwBvclqm\n/lkZc3leqXrAOXYneEON/sWMvljhT2UhAbesAR0CgYEA0GCATulLqa5hg+AiBsz3\np3Vty7pqB9ycszn5nyU/S7ZmRbD6WDZD27syWfrbQCNh5cTkEXMb++tQYWTLH610\nOJnVqasFNgrA5c0kvbZywJl+UBSaR3Nsm1wxIMnXj6B89r09kEqea4r1lhp2bdVR\n96VMlCU+81EVpJX2Rq48jzMCgYAn9NZjW/BgrRPaaKfWm1m/JFDr0i7zKtfP7DZ2\nfDe+dCaiO8Cql0Rc6T/psXM8pZT5cwclRu5H6kIHT0aKRtqJaXY7+pMvXxWtpQd1\nLihMtep/kaFdlTHovfwh0FV+du46RSqMPu7Cyd4RiYD3KkDZy3EpxHQFQ2tR2mzu\nbLO64QKBgQDjyCyX2RCH3TKnt4AeShmuatSn1xhP3P8RI1q5cr9aWHAPeyeyVCeW\n6U2PmHJ2CUcwAJ1sxb51vxOn2zJYz3aVefosIH170Prqcn3j0K6v1Ftsbtgifr0v\nSlPHvZJoUnV0dKABLSnlohFErqu22VF2smBIC0r2W7xSNVnoS5VSBw==\n-----END RSA PRIVATE KEY-----"
 a, b = name.upper()
 name_ascii = str(1) + str(ord(a)) + str(ord(b))
 name_ascii_2 = str(2) + str(ord(a)) + str(ord(b))
@@ -153,12 +160,12 @@ def initialize():
     ssh = paramiko.SSHClient()
     ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
     # 连接服务器
-    ssh.connect(hostname='172.31.32.88', port=22, username='centos', pkey=private_key)
+    ssh.connect(hostname='172.31.47.6', port=22, username='laobai', pkey=private_key)
     # 执行命令
     localpath = "/tmp/"  # 需要上传的文件(源)
     remotepath = "/scripts/"  # 远程路径(目标)
-    t = paramiko.Transport(('172.31.32.88', int(22)))
-    t.connect(username='centos', password='888999', pkey=private_key)
+    t = paramiko.Transport(('172.31.47.6', int(22)))
+    t.connect(username='laobai', password='888999', pkey=private_key)
     sftp = paramiko.SFTPClient.from_transport(t)
     list = sftp.listdir(remotepath)
     # 创建一个已经连通的SFTP客户端通道
@@ -177,10 +184,10 @@ def initialize():
             os.system("sh /tmp/initialize.sh")
         else:
             continue
-
-    # stdin, stdout, stderr = ssh.exec_command('sudo su -l root -c "sh /tmp/initialize.sh|tee -a /opt/initialize.log"'+';',get_pty=True)
-    # cmd_result=stdout.read(),stderr.read()
-    # print(cmd_result)
+    #
+    # # stdin, stdout, stderr = ssh.exec_command('sudo su -l root -c "sh /tmp/initialize.sh|tee -a /opt/initialize.log"'+';',get_pty=True)
+    # # cmd_result=stdout.read(),stderr.read()
+    # # print(cmd_result)
     ssh.close()
 
 
@@ -429,7 +436,6 @@ def zabbix():
         "method": "host.create",
         "params": {
             "host": hostname,
-            "name": alias_name,
             "interfaces": [{
                 "type": 1,
                 "main": 1,
@@ -452,13 +458,58 @@ def zabbix():
         if i == 'nginx':
             result = zabbix_api_common(data_nginx)
             print(result)
-            msg = '''
-# Author : laobai
-# @Time : 2020/2/15 15:37
-# @Site :
-# @File : 监听nginx服务器大于20秒.py
-# @Software: PyCharm
-# -*- coding: utf-8 -*-              
+        elif i == 'api':
+            result = zabbix_api_common(data_api)
+            print(result)
+            msg_zabbix = '''
+import redis
+import json, sys, os
+import time
+import socket
+import subprocess
+
+uname = %s
+r = redis.Redis(host=uname, port=6379, db=0, decode_responses=True)
+
+
+class RedisHelper:
+    def __init__(self):
+        self.__conn = r
+        self.chan_sub = 'fm104.5'
+        self.chan_pub = 'fm104.5'
+
+    def public(self, msg):
+        self.__conn.publish(self.chan_pub, msg)
+        return True
+
+    def subscribe(self):
+        pub = self.__conn.pubsub()
+        pub.subscribe(self.chan_sub)
+        pub.parse_response()
+        return pub
+
+
+obj = RedisHelper()
+redis_sub = obj.subscribe()
+node_id = []
+while True:
+    msg = redis_sub.parse_response()
+    if msg:
+        node_id.append(msg[2])
+        tuple_list = list(set(node_id))
+        for i in tuple_list:
+            if uname == i.split(':')[0] and r.exists(i) != 1:
+                os.system('/scripts/politeness_docker.sh' + " " + i.split(':')[1] + " " + i.split(':')[0] + " " + %s)
+                r.set(i, '1', ex=60, nx=True)
+        node_id = []
+''' % (zabbix_listen_ip, zabbix_site)
+            with open('/opt/zabbix_server/agentd-shell/listen_greater_10.py', 'w', encoding='utf-8') as f:
+                for line in msg_zabbix:
+                    f.write(line)
+            f.close()
+        else:
+            continue
+    msg = '''
 import redis
 import json,sys,os
 import time
@@ -498,67 +549,11 @@ while True:
             if uname == i.split(':')[0] and r.exists(i) != 1:
                 os.system('/opt/zabbix_server/agentd-shell/politeness_docker.sh' +" " + i.split(':')[1] + " " + i.split(':')[0] + " " + '%s')
                 r.set(i,'1',ex=60,nx=True)
-        node_id = []''' % zabbix_site
-            with open('/opt/zabbix_server/agentd-shell/listen_greater_10.py', 'w', encoding='utf-8') as f:
-                for line in msg:
-                    f.write(line)
-            f.close()
-        elif i == 'api':
-            result = zabbix_api_common(data_api)
-            print(result)
-            msg_zabbix = '''
-# Author : laobai
-# @Time : 2020/2/15 15:37
-# @Site :
-# @File : 监听nginx服务器大于20秒.py
-# @Software: PyCharm
-# -*- coding: utf-8 -*-            
-import redis
-import json, sys, os
-import time
-import socket
-import subprocess
-hostName = socket.gethostname()
-uname = hostName.split(".")[0].split('ip-')[1].replace('-','.')
-redis_ip = "%s"
-r = redis.Redis(host=redis_ip, port=6379, db=0, decode_responses=True)
-class RedisHelper:
-    def __init__(self):
-        self.__conn = r
-        self.chan_sub = 'fm104.5'
-        self.chan_pub = 'fm104.5'
-
-    def public(self, msg):
-        self.__conn.publish(self.chan_pub, msg)
-        return True
-
-    def subscribe(self):
-        pub = self.__conn.pubsub()
-        pub.subscribe(self.chan_sub)
-        pub.parse_response()
-        return pub
-
-
-obj = RedisHelper()
-redis_sub = obj.subscribe()
-node_id = []
-while True:
-    msg = redis_sub.parse_response()
-    if msg:
-        node_id.append(msg[2])
-        tuple_list = list(set(node_id))
-        for i in tuple_list:
-            if uname == i.split(':')[0] and r.exists(i) != 1:
-                os.system('/scripts/politeness_docker.sh' + " " + i.split(':')[1] + " " + i.split(':')[0] + " " + %s)
-                r.set(i, '1', ex=60, nx=True)
-        node_id = []
-''' % (zabbix_listen_ip, zabbix_site)
-            with open('/opt/zabbix_server/agentd-shell/listen_greater_10.py', 'w', encoding='utf-8') as f:
-                for line in msg_zabbix:
-                    f.write(line)
-            f.close()
-        else:
-            continue
+        node_id = []'''%zabbix_site
+    with open('/opt/zabbix_server/agentd-shell/listen_greater_10.py','w',encoding='utf-8') as f:
+        for line in msg:
+            f.write(line)
+    f.close()
     os.system("./opt/zabbix_server/sbin/zabbix_agentd")
 
 
@@ -611,8 +606,7 @@ output.redis:
   hosts: ["172.31.3.15"]
   port: "17788"
   key: "*"
-  password: APPLE!@#++--123''' % (
-    filebeat_api_name, filebeat_site, filebeat_site, filebeat_api_name, filebeat_cld, filebeat_api_name)
+  password: APPLE!@#++--123''' % (filebeat_api_name, filebeat_site, filebeat_site, filebeat_api_name, filebeat_cld, filebeat_api_name)
     msg_api = '''
 filebeat.config.modules:
   path: ${path.config}/modules.d/*.yml
@@ -648,8 +642,7 @@ output.redis:
   hosts: ["172.31.3.15"]
   port: "17788"
   key: "*"
-  password: APPLE!@#++--123''' % (
-    filebeat_api_name, filebeat_site_api, filebeat_site_api, filebeat_api_name, filebeat_site_api)
+  password: APPLE!@#++--123''' % (filebeat_api_name, filebeat_site_api, filebeat_site_api, filebeat_api_name, filebeat_site_api)
     for i in sys.argv:
         if i == 'nginx':
             with open('/opt/elk/filebeat-6.5.4/filebeat.yml', 'w', encoding='utf-8') as f:
