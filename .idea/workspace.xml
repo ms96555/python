@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8dac206-8a98-40b8-8e81-f1224ba3e91e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/node_move-v8负载/laobai.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/检查nginx_后端大于20秒/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/检查nginx_后端大于20秒/真人转帐失败报警.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/检查真人订单转帐失败/live_zabbix优化.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_move-v8负载/create_nodes.py" beforeDir="false" afterPath="$PROJECT_DIR$/node_move-v8负载/create_nodes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -375,7 +368,9 @@
       <workItem from="1595998664259" duration="396000" />
       <workItem from="1596366401213" duration="29000" />
       <workItem from="1596537780784" duration="502000" />
-      <workItem from="1596860477158" duration="545000" />
+      <workItem from="1596860477158" duration="1374000" />
+      <workItem from="1596949110077" duration="970000" />
+      <workItem from="1597216169022" duration="1080000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;新增了一个test文件&quot;">
       <created>1581489337216</created>
@@ -531,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588740239820</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="&quot;python 202000808live_zabbix优化&quot;">
+      <created>1596864394539</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1596864394539</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TodoView">
@@ -564,9 +566,14 @@
     <MESSAGE value="&quot;python 202000325增加linux_优化&quot;" />
     <MESSAGE value="&quot;python 202000328开始Django&quot;" />
     <MESSAGE value="&quot;python 202000506第二版连接SSH&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;python 202000506第二版连接SSH&quot;" />
+    <MESSAGE value="&quot;python 202000808live_zabbix优化&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;python 202000808live_zabbix优化&quot;" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1027" y="262" key="CommitChangelistDialog2" timestamp="1596864393940">
+      <screen x="0" y="23" width="3008" height="1612" />
+    </state>
+    <state x="1027" y="262" key="CommitChangelistDialog2/0.23.3008.1612@0.23.3008.1612" timestamp="1596864393940" />
     <state width="2518" height="257" key="GridCell.Tab.0.bottom" timestamp="1595855337052">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -623,6 +630,10 @@
       <screen x="0" y="23" width="2560" height="1368" />
     </state>
     <state x="781" y="346" key="SettingsEditor/0.23.2560.1368@0.23.2560.1368" timestamp="1595245070309" />
+    <state x="1044" y="402" key="Vcs.Push.Dialog.v2" timestamp="1596864398448">
+      <screen x="0" y="23" width="3008" height="1612" />
+    </state>
+    <state x="1044" y="402" key="Vcs.Push.Dialog.v2/0.23.3008.1612@0.23.3008.1612" timestamp="1596864398448" />
     <state x="861" y="293" width="837" height="825" key="find.popup" timestamp="1595307830630">
       <screen x="0" y="23" width="2560" height="1369" />
     </state>

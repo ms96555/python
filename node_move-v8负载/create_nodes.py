@@ -153,11 +153,11 @@ def initialize():
     ssh = paramiko.SSHClient()
     ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
     # 连接服务器
-    ssh.connect(hostname='172.31.32.88', port=22, username='centos', pkey=private_key)
+    ssh.connect(hostname='172.31.47.6', port=22, username='centos', pkey=private_key)
     # 执行命令
     localpath = "/tmp/"  # 需要上传的文件(源)
     remotepath = "/scripts/"  # 远程路径(目标)
-    t = paramiko.Transport(('172.31.32.88', int(22)))
+    t = paramiko.Transport(('172.31.47.6', int(22)))
     t.connect(username='centos', password='888999', pkey=private_key)
     sftp = paramiko.SFTPClient.from_transport(t)
     list = sftp.listdir(remotepath)
