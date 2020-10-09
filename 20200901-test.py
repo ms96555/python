@@ -1,8 +1,8 @@
-# Author : Sky 
+# Author : Sky
 # @Time : 2020/2/15 15:23
-# @Site : 
+# @Site :
 # @File : 检查大于20秒.py
-# @Software: PyCharm 
+# @Software: PyCharm
 # -*- coding: utf-8 -*-
 import redis
 import json,sys,os
@@ -56,20 +56,18 @@ def stat_logs(*args):
             #print(dict_line)
             if dict_line['upstream_response_time'] != '-':
                 new_list = dict_line['upstream_response_time'].split(',')
-                # print(new_list)
-                # print('------',len(new_list))
-                # print(int(float(new_list[0])))
                 try:
                     if len(new_list) >= 1:
                         new_addr = dict_line['upstream_addr'].split(',')
                         new_dict = dict(zip(new_addr,new_list))
-                        # print(new_dict)
                         for k,v in new_dict.items():
                             if float(v) > 50:
                                 obj.public(k)
+                                time.sleep(50)
+                                continue
                     elif float(new_list[0]) > 50:
                         obj.public(dict_line['upstream_addr'])
+                        time.sleep(50)
                 except Exception as e:
-                    print(e)
                     continue
 stat_logs(sys.argv[1])

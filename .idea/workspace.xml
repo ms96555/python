@@ -2,8 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8dac206-8a98-40b8-8e81-f1224ba3e91e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/20200901-test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_系列脚本/java_vue后台.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Windows下载.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AG_Test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BG_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CQ_Test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/____kongbai___.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/company_rsa_public_key.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/des.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_move-v8负载/create_nodes.py" beforeDir="false" afterPath="$PROJECT_DIR$/node_move-v8负载/create_nodes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ompany_rsa_private_key.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test6.py" beforeDir="false" afterPath="$PROJECT_DIR$/test6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/检查nginx_后端大于20秒/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/检查nginx_后端大于20秒/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/检查nginx_后端大于20秒/检查大于20秒.py" beforeDir="false" afterPath="$PROJECT_DIR$/检查nginx_后端大于20秒/检查大于20秒.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/检查nginx_后端大于20秒/检查大于80秒.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,10 +100,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/检查真人订单转帐失败" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -101,7 +123,7 @@
       <recent name="D:\python\面像对象讲笔记" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test (1)">
+  <component name="RunManager" selected="Python.Windows下载">
     <configuration name="真人转帐失败报警" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -116,6 +138,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/检查nginx_后端大于20秒/真人转帐失败报警.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Windows下载" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Windows下载.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -190,35 +234,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test7" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test7.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.Windows下载" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.真人转帐失败报警" />
         <item itemvalue="Python.test10" />
-        <item itemvalue="Python.test7" />
       </list>
     </recent_temporary>
   </component>
@@ -370,7 +392,28 @@
       <workItem from="1596537780784" duration="502000" />
       <workItem from="1596860477158" duration="1374000" />
       <workItem from="1596949110077" duration="970000" />
-      <workItem from="1597216169022" duration="1080000" />
+      <workItem from="1597216169022" duration="7302000" />
+      <workItem from="1597300748687" duration="747000" />
+      <workItem from="1598423659500" duration="8231000" />
+      <workItem from="1598498280775" duration="225000" />
+      <workItem from="1598680503504" duration="9273000" />
+      <workItem from="1598945613868" duration="1276000" />
+      <workItem from="1599025890785" duration="3014000" />
+      <workItem from="1599102872579" duration="673000" />
+      <workItem from="1599189648921" duration="635000" />
+      <workItem from="1599294158390" duration="1804000" />
+      <workItem from="1599459528680" duration="1360000" />
+      <workItem from="1599716870347" duration="524000" />
+      <workItem from="1600417703179" duration="1707000" />
+      <workItem from="1600592809782" duration="733000" />
+      <workItem from="1600674404886" duration="46000" />
+      <workItem from="1600676679504" duration="579000" />
+      <workItem from="1600750312754" duration="355000" />
+      <workItem from="1600929699729" duration="491000" />
+      <workItem from="1601448179348" duration="3258000" />
+      <workItem from="1601525115418" duration="1885000" />
+      <workItem from="1602077327101" duration="2216000" />
+      <workItem from="1602235249069" duration="1824000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;新增了一个test文件&quot;">
       <created>1581489337216</created>
@@ -533,7 +576,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596864394539</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="&quot;python 202000812调整create连接iP&quot;">
+      <created>1597218500825</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1597218500825</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TodoView">
@@ -567,45 +617,82 @@
     <MESSAGE value="&quot;python 202000328开始Django&quot;" />
     <MESSAGE value="&quot;python 202000506第二版连接SSH&quot;" />
     <MESSAGE value="&quot;python 202000808live_zabbix优化&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;python 202000808live_zabbix优化&quot;" />
+    <MESSAGE value="&quot;python 202000812调整create连接iP&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;python 202000812调整create连接iP&quot;" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1027" y="262" key="CommitChangelistDialog2" timestamp="1596864393940">
+    <state x="424" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601526012074">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="424" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/59.1103.1440.825/0.23.1920.1057@0.23.1920.1057" timestamp="1601526012074" />
+    <state x="1242" y="583" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599460005731">
       <screen x="0" y="23" width="3008" height="1612" />
     </state>
-    <state x="1027" y="262" key="CommitChangelistDialog2/0.23.3008.1612@0.23.3008.1612" timestamp="1596864393940" />
-    <state width="2518" height="257" key="GridCell.Tab.0.bottom" timestamp="1595855337052">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state x="1242" y="583" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.3008.1612@0.23.3008.1612" timestamp="1599460005731" />
+    <state x="1248" y="691" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1597225946267">
+      <screen x="0" y="23" width="3008" height="1612" />
+    </state>
+    <state x="1248" y="691" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.3008.1612@0.23.3008.1612" timestamp="1597225946267" />
+    <state x="1027" y="262" key="CommitChangelistDialog2" timestamp="1597218499979">
+      <screen x="0" y="23" width="3008" height="1612" />
+    </state>
+    <state x="1027" y="262" key="CommitChangelistDialog2/0.23.3008.1612@0.23.3008.1612" timestamp="1597218499979" />
+    <state width="1878" height="345" key="GridCell.Tab.0.bottom" timestamp="1602086279940">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="2518" height="636" key="GridCell.Tab.0.bottom/-1440.23.1440.877/0.23.3008.1620@0.23.3008.1620" timestamp="1595248096837" />
     <state width="2518" height="257" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1595855337052" />
     <state width="2518" height="634" key="GridCell.Tab.0.bottom/0.23.2560.1366@0.23.2560.1366" timestamp="1595301215080" />
     <state width="2518" height="336" key="GridCell.Tab.0.bottom/0.23.2560.1368@0.23.2560.1368" timestamp="1595245789779" />
     <state width="2518" height="302" key="GridCell.Tab.0.bottom/0.23.2560.1369@0.23.2560.1369" timestamp="1595336704669" />
-    <state width="2518" height="257" key="GridCell.Tab.0.center" timestamp="1595855337050">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="2966" height="288" key="GridCell.Tab.0.bottom/0.23.3008.1612@0.23.3008.1612" timestamp="1598699101784" />
+    <state width="1878" height="173" key="GridCell.Tab.0.bottom/59.1103.1440.822/0.23.1920.1057@0.23.1920.1057" timestamp="1601549665690" />
+    <state width="1878" height="345" key="GridCell.Tab.0.bottom/59.1103.1440.823/0.23.1920.1057@0.23.1920.1057" timestamp="1602086279940" />
+    <state width="1878" height="173" key="GridCell.Tab.0.bottom/59.1103.1440.825/0.23.1920.1057@0.23.1920.1057" timestamp="1601528989037" />
+    <state width="1878" height="116" key="GridCell.Tab.0.bottom/59.1103.1440.826/0.23.1920.1057@0.23.1920.1057" timestamp="1601522908364" />
+    <state width="1878" height="116" key="GridCell.Tab.0.bottom/59.1103.1440.828/0.23.1920.1057@0.23.1920.1057" timestamp="1601467486829" />
+    <state width="1878" height="345" key="GridCell.Tab.0.center" timestamp="1602086279939">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="2518" height="636" key="GridCell.Tab.0.center/-1440.23.1440.877/0.23.3008.1620@0.23.3008.1620" timestamp="1595248096836" />
     <state width="2518" height="257" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1595855337050" />
     <state width="2518" height="634" key="GridCell.Tab.0.center/0.23.2560.1366@0.23.2560.1366" timestamp="1595301215079" />
     <state width="2518" height="336" key="GridCell.Tab.0.center/0.23.2560.1368@0.23.2560.1368" timestamp="1595245789778" />
     <state width="2518" height="302" key="GridCell.Tab.0.center/0.23.2560.1369@0.23.2560.1369" timestamp="1595336704668" />
-    <state width="2518" height="257" key="GridCell.Tab.0.left" timestamp="1595855337049">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="2966" height="288" key="GridCell.Tab.0.center/0.23.3008.1612@0.23.3008.1612" timestamp="1598699101782" />
+    <state width="1878" height="173" key="GridCell.Tab.0.center/59.1103.1440.822/0.23.1920.1057@0.23.1920.1057" timestamp="1601549665687" />
+    <state width="1878" height="345" key="GridCell.Tab.0.center/59.1103.1440.823/0.23.1920.1057@0.23.1920.1057" timestamp="1602086279939" />
+    <state width="1878" height="173" key="GridCell.Tab.0.center/59.1103.1440.825/0.23.1920.1057@0.23.1920.1057" timestamp="1601528989036" />
+    <state width="1878" height="116" key="GridCell.Tab.0.center/59.1103.1440.826/0.23.1920.1057@0.23.1920.1057" timestamp="1601522908363" />
+    <state width="1878" height="116" key="GridCell.Tab.0.center/59.1103.1440.828/0.23.1920.1057@0.23.1920.1057" timestamp="1601467486827" />
+    <state width="1878" height="345" key="GridCell.Tab.0.left" timestamp="1602086279939">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="2518" height="636" key="GridCell.Tab.0.left/-1440.23.1440.877/0.23.3008.1620@0.23.3008.1620" timestamp="1595248096835" />
     <state width="2518" height="257" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1595855337049" />
     <state width="2518" height="634" key="GridCell.Tab.0.left/0.23.2560.1366@0.23.2560.1366" timestamp="1595301215078" />
     <state width="2518" height="336" key="GridCell.Tab.0.left/0.23.2560.1368@0.23.2560.1368" timestamp="1595245789777" />
     <state width="2518" height="302" key="GridCell.Tab.0.left/0.23.2560.1369@0.23.2560.1369" timestamp="1595336704668" />
-    <state width="2518" height="257" key="GridCell.Tab.0.right" timestamp="1595855337051">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="2966" height="288" key="GridCell.Tab.0.left/0.23.3008.1612@0.23.3008.1612" timestamp="1598699101782" />
+    <state width="1878" height="173" key="GridCell.Tab.0.left/59.1103.1440.822/0.23.1920.1057@0.23.1920.1057" timestamp="1601549665686" />
+    <state width="1878" height="345" key="GridCell.Tab.0.left/59.1103.1440.823/0.23.1920.1057@0.23.1920.1057" timestamp="1602086279939" />
+    <state width="1878" height="173" key="GridCell.Tab.0.left/59.1103.1440.825/0.23.1920.1057@0.23.1920.1057" timestamp="1601528989034" />
+    <state width="1878" height="116" key="GridCell.Tab.0.left/59.1103.1440.826/0.23.1920.1057@0.23.1920.1057" timestamp="1601522908363" />
+    <state width="1878" height="116" key="GridCell.Tab.0.left/59.1103.1440.828/0.23.1920.1057@0.23.1920.1057" timestamp="1601467486827" />
+    <state width="1878" height="345" key="GridCell.Tab.0.right" timestamp="1602086279940">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="2518" height="636" key="GridCell.Tab.0.right/-1440.23.1440.877/0.23.3008.1620@0.23.3008.1620" timestamp="1595248096836" />
     <state width="2518" height="257" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1595855337051" />
     <state width="2518" height="634" key="GridCell.Tab.0.right/0.23.2560.1366@0.23.2560.1366" timestamp="1595301215080" />
     <state width="2518" height="336" key="GridCell.Tab.0.right/0.23.2560.1368@0.23.2560.1368" timestamp="1595245789778" />
     <state width="2518" height="302" key="GridCell.Tab.0.right/0.23.2560.1369@0.23.2560.1369" timestamp="1595336704669" />
+    <state width="2966" height="288" key="GridCell.Tab.0.right/0.23.3008.1612@0.23.3008.1612" timestamp="1598699101783" />
+    <state width="1878" height="173" key="GridCell.Tab.0.right/59.1103.1440.822/0.23.1920.1057@0.23.1920.1057" timestamp="1601549665689" />
+    <state width="1878" height="345" key="GridCell.Tab.0.right/59.1103.1440.823/0.23.1920.1057@0.23.1920.1057" timestamp="1602086279940" />
+    <state width="1878" height="173" key="GridCell.Tab.0.right/59.1103.1440.825/0.23.1920.1057@0.23.1920.1057" timestamp="1601528989036" />
+    <state width="1878" height="116" key="GridCell.Tab.0.right/59.1103.1440.826/0.23.1920.1057@0.23.1920.1057" timestamp="1601522908364" />
+    <state width="1878" height="116" key="GridCell.Tab.0.right/59.1103.1440.828/0.23.1920.1057@0.23.1920.1057" timestamp="1601467486828" />
     <state width="2518" height="302" key="GridCell.Tab.1.bottom" timestamp="1595336704671">
       <screen x="0" y="23" width="2560" height="1369" />
     </state>
@@ -630,10 +717,18 @@
       <screen x="0" y="23" width="2560" height="1368" />
     </state>
     <state x="781" y="346" key="SettingsEditor/0.23.2560.1368@0.23.2560.1368" timestamp="1595245070309" />
-    <state x="1044" y="402" key="Vcs.Push.Dialog.v2" timestamp="1596864398448">
+    <state x="1044" y="402" key="Vcs.Push.Dialog.v2" timestamp="1597218503700">
       <screen x="0" y="23" width="3008" height="1612" />
     </state>
-    <state x="1044" y="402" key="Vcs.Push.Dialog.v2/0.23.3008.1612@0.23.3008.1612" timestamp="1596864398448" />
+    <state x="1044" y="402" key="Vcs.Push.Dialog.v2/0.23.3008.1612@0.23.3008.1612" timestamp="1597218503700" />
+    <state x="100" y="123" width="2808" height="1412" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1597225968328">
+      <screen x="0" y="23" width="3008" height="1612" />
+    </state>
+    <state x="100" y="123" width="2808" height="1412" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.23.3008.1612@0.23.3008.1612" timestamp="1597225968328" />
+    <state x="743" y="475" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602238095969">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="743" y="475" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/59.1103.1440.821/0.23.1920.1057@0.23.1920.1057" timestamp="1602238095969" />
     <state x="861" y="293" width="837" height="825" key="find.popup" timestamp="1595307830630">
       <screen x="0" y="23" width="2560" height="1369" />
     </state>
@@ -645,7 +740,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1595841071094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/检查nginx_后端大于20秒" />
+    <SUITE FILE_PATH="coverage/python$Windows.coverage" NAME="Windows下载 Coverage Results" MODIFIED="1602077857414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python$.coverage" NAME="真人转帐失败报警 Coverage Results" MODIFIED="1595311411010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/检查nginx_后端大于20秒" />
-    <SUITE FILE_PATH="coverage/python$test.coverage" NAME="test Coverage Results" MODIFIED="1595316553847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$test.coverage" NAME="test Coverage Results" MODIFIED="1598685310318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

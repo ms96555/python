@@ -323,7 +323,7 @@ def nginx():
         new_nginx_description = name + "-nginx"
         new_nginx_ssh_name = load_dict["initialize"]["d,zabbix-agent-hostname"]
         new_nginx_branch = "*/" + name
-        new_nginx_url = "http://git.nbet-group.com/yun/cloud_site_nginx_config_" + load_dict["initialize"][
+        new_nginx_url = "https://git.nbet-group.com:4433/yun/cloud_site_nginx_config_" + load_dict["initialize"][
             "cloud"] + ".git"
         root_url.text = str(new_nginx_url)
         root_description.text = str(new_nginx_description)
@@ -339,7 +339,8 @@ def nginx():
         lastnum = build_job.build_job(nginx_name)
     else:
         print("%s was existed pls check web job and del it, run again scripts" % nginx_name)
-
+    redis_ip = load_dict["initialize"]["h,nginx_ip"]
+    os.system('sh /tmp/lua_nginx.sh %s'%redis_ip)
 
 def zabbix():
     zabbix_site = load_dict["initialize"]["a,站点标识"]
@@ -452,8 +453,7 @@ def zabbix():
         if i == 'nginx':
             result = zabbix_api_common(data_nginx)
             print(result)
-            msg = '''
-# Author : laobai
+            msg = '''# Author : laobai
 # @Time : 2020/2/15 15:37
 # @Site :
 # @File : 监听nginx服务器大于20秒.py
@@ -506,22 +506,25 @@ while True:
         elif i == 'api':
             result = zabbix_api_common(data_api)
             print(result)
-            msg_zabbix = '''
-# Author : laobai
+            msg_zabbix = '''# Author : laobai
 # @Time : 2020/2/15 15:37
 # @Site :
 # @File : 监听nginx服务器大于20秒.py
 # @Software: PyCharm
-# -*- coding: utf-8 -*-            
+# -*- coding: utf-8 -*-
 import redis
 import json, sys, os
 import time
 import socket
 import subprocess
+
+
 hostName = socket.gethostname()
-uname = hostName.split(".")[0].split('ip-')[1].replace('-','.')
+uname = hostName.split(".")[0].split('ip-')[1].replace('-', '.')
 redis_ip = "%s"
 r = redis.Redis(host=redis_ip, port=6379, db=0, decode_responses=True)
+
+
 class RedisHelper:
     def __init__(self):
         self.__conn = r
@@ -548,8 +551,15 @@ while True:
         node_id.append(msg[2])
         tuple_list = list(set(node_id))
         for i in tuple_list:
+            # print(i.split(':')[0])
             if uname == i.split(':')[0] and r.exists(i) != 1:
-                os.system('/scripts/politeness_docker.sh' + " " + i.split(':')[1] + " " + i.split(':')[0] + " " + %s)
+                T1 = "%s"
+                T2 = i.split(':')[0]
+                T3 = i.split(':')[1].split(',')[0]
+                T4 = i.split(':')[1].split(',')[1].split('/api/')[1].split('/')[1]
+                T4 = T4.capitalize()
+                os.system(
+                    '/opt/zabbix_server/agentd-shell/politeness_docker.sh' + " " + T3 + " " + T2 + " " + T1 + " " + T4)
                 r.set(i, '1', ex=60, nx=True)
         node_id = []
 ''' % (zabbix_listen_ip, zabbix_site)
@@ -568,8 +578,7 @@ def elk():
     filebeat_cld = load_dict["initialize"]["cloud"]
     filebeat_site_api = load_dict["initialize"]["b,站点配置"]
 
-    msg_nginx = '''
-filebeat.config.modules:
+    msg_nginx = '''filebeat.config.modules:
   path: ${path.config}/modules.d/*.yml
   reload.enabled: false
 setup.template.settings:
@@ -608,13 +617,14 @@ filebeat.inputs:
     fields_under_root: true
   tags: ["nginx-error"]
 output.redis:
-  hosts: ["172.31.3.15"]
-  port: "17788"
-  key: "*"
-  password: APPLE!@#++--123''' % (
-    filebeat_api_name, filebeat_site, filebeat_site, filebeat_api_name, filebeat_cld, filebeat_api_name)
-    msg_api = '''
-filebeat.config.modules:
+  hosts: ["172.31.16.46"]
+  port: "28899"
+  key: "cld_%s"
+  password: laobai1.5m**''' % (
+        filebeat_api_name, filebeat_site, filebeat_site, filebeat_api_name, filebeat_cld, filebeat_api_name,
+        filebeat_cld)
+
+    msg_api = '''filebeat.config.modules:
   path: ${path.config}/modules.d/*.yml
   reload.enabled: false
 setup.template.settings:
@@ -645,11 +655,11 @@ filebeat.inputs:
     fields_under_root: true
   tags: ["applog"]
 output.redis:
-  hosts: ["172.31.3.15"]
-  port: "17788"
-  key: "*"
-  password: APPLE!@#++--123''' % (
-    filebeat_api_name, filebeat_site_api, filebeat_site_api, filebeat_api_name, filebeat_site_api)
+  hosts: ["172.31.16.46"]
+  port: "28899"
+  key: "cld_%s"
+  password: laobai1.5m**''' % (
+        filebeat_api_name, filebeat_site_api, filebeat_site_api, filebeat_api_name, filebeat_site_api,filebeat_cld)
     for i in sys.argv:
         if i == 'nginx':
             with open('/opt/elk/filebeat-6.5.4/filebeat.yml', 'w', encoding='utf-8') as f:

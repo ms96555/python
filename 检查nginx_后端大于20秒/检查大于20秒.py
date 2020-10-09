@@ -1,8 +1,8 @@
-# Author : Sky 
-# @Time : 2020/2/15 15:23
-# @Site : 
-# @File : 检查大于20秒.py
-# @Software: PyCharm 
+# Author : Sky
+# @Time : 9/1/20 3:34 下午
+# @Site :
+# @File : 20200901-test.py
+# @Software: PyCharm
 # -*- coding: utf-8 -*-
 import redis
 import json,sys,os
@@ -13,7 +13,6 @@ import requests
 hostName = socket.gethostname()
 #uname = hostName.split(".")
 uname = hostName.split(".")[0].split('ip-')[1].replace('-','.')
-print(uname)
 r = redis.Redis(host=uname, port=6379,db=0,decode_responses=True)
 cmd = 'ps -fe | grep tail | grep -v "grep"'
 a = os.popen(cmd)  # 返回一个对象
@@ -57,21 +56,22 @@ def stat_logs(*args):
             #print(dict_line)
             if dict_line['upstream_response_time'] != '-':
                 new_list = dict_line['upstream_response_time'].split(',')
-                print(new_list)
-
+                # print(new_list)
                 # print(int(float(new_list[0])))
-                # print(dict_line)
                 try:
                     if len(new_list) > 1:
                         new_addr = dict_line['upstream_addr'].split(',')
-                        print(new_addr)
                         new_dict = dict(zip(new_addr,new_list))
                         print(new_list)
                         for k,v in new_dict.items():
                             if float(v) > 50:
                                 obj.public(k)
+                                time.sleep(50)
+                                continue
                     elif float(new_list[0]) > 50:
                         obj.public(dict_line['upstream_addr'])
+                        time.sleep(50)
+                        continue
                 except Exception as e:
                     print(e)
                     continue

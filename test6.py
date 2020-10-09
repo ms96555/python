@@ -1,118 +1,109 @@
+# Author : Sky
+# @Time : 2020/2/15 15:23
+# @Site :
+# @File : 检查大于20秒.py
+# @Software: PyCharm
+# -*- coding: utf-8 -*-
+import redis
+import json, sys, os
+import time
+import socket
+import subprocess
 import requests
-import uuid
-import base64
 
-# Create your views here.
-
-# !!! 所有请求要先获取TOKN
-
-'''
-Basic 验证资讯范例
-Auth username(API 应用登入帐号): testauthuser
-Auth Password(API 应用登入密码): testsecret
-$ echo "testauthuser:testsecret" | base64
-dGVzdGF1dGh1c2VyOnRlc3RzZWNyZXQK
-您也可以透过此网站 https://www.base64encode.org/ 对资讯做 64 编码
-范例请求
-POST /oauth/token
-Authorization: Basic dGVzdGF1dGh1c2VyOnRlc3RzZWNyZXQK
-Accept: application/json ;charset=UTF-8 X-DAS-TX-ID: 123e4567-e89b-12d3-a456-426655440000
-X-DAS-CURRENCY: USD
-X-DAS-TZ: UTC+9
-X-DAS-LANG: en
-grant_type=password&username=apiusername&password=apipassword
-'''
+hostName = socket.gethostname()
+# uname = hostName.split(".")
+uname = hostName.split(".")[0].split('ip-')[1].replace('-', '.')
+r = redis.Redis(host=uname, port=6379, db=0, decode_responses=True)
+cmd = 'ps -fe | grep tail | grep -v "grep"'
+a = os.popen(cmd)  # 返回一个对象
+txt = a.readlines()
+if len(txt) != 0:
+    for lin in txt:
+        lin_ = lin.split()
+        pid = lin_[1]
+        cmd = 'kill -9 %d' % (int(pid))
+        rc = os.system(cmd)
 
 
-def Tocken():
-    testauthuser = "YobetCNY_auth"
-    testsecret = 'Gx7M555bsr3KspgLJx8V'
-    authorizon = testauthuser + ':' + testsecret
-    print(authorizon)
-    base64_authorizon = base64.b64encode(authorizon.encode('utf-8'))
-    print(str(base64_authorizon, 'utf-8'))
+class RedisHelper:
+    def __init__(self):
+        self.__conn = r
+        self.chan_sub = 'fm104.5'
+        self.chan_pub = 'fm104.5'
+
+    def public(self, msg):
+        self.__conn.publish(self.chan_pub, msg)
+        return True
+
+    def subscribe(self):
+        pub = self.__conn.pubsub()
+        pub.subscribe(self.chan_sub)
+        pub.parse_response()
+        return pub
 
 
-    # random 隨機數
-    random = uuid.uuid1().hex
-    print(random)
-
-    CONFIG = {
-        'url': 'https://api.adminserv88.com',
-        'headers': {
-            'Authorization': 'Basic WW9iZXRDTllfYXV0aDpHeDdNNTU1YnNyM0tzcGdMSng4Vg==',
-            'X-DAS-TZ': 'UTC+8',
-            'X-DAS-CURRENCY': 'CNY',
-            'X-DAS-TX-ID': random,
-            'X-DAS-LANG': 'zh-CN',
-
-        }
-    }
-    data = {
-        'grant_type': 'password',
-        'username': 'YobetCNY_api',
-        'password': 'x6529w9Yrnd3KphBfVKG',
-
-    }
-    headers = CONFIG['headers']
-    get_url = CONFIG['url'] + '/oauth/token'
-    r = requests.post(url=get_url, headers=headers,data=data)
-
-
-
-    print('**********************')
-    print('請求RUL:',r.url)
-    print('請求headers:',headers)
-    print('請求數據:',data)
-    print('返回值:',r.text)
-    print(r.content)
-    print('**********************')
+obj = RedisHelper()
 
 
 
 
 
-def Get_balance(request):
-    '''
-    Headers:Authorization=Basic WW9iZXRDTllfYXV0aDpHeDdNNTU1YnNyM0tzcGdMSng4Vg==; X-DAS-TZ=UTC+8; X-DAS-CURRENCY=CNY; X-DAS-TX-ID=4d5e4f3cc84944328d507dafaf9ddcc9; X-DAS-LANG=zh-CN] https://api.adminserv88.com/oauth/token?grant_type=password&username=YobetCNY_api&password=x6529w9Yrnd3KphBfVKG
-    :param request:
-    :return:
-    '''
+def stat_logs(*args):
+    bad_list = []
+    ip_list = []
+    local_time = time.time()
+    popen = subprocess.Popen('tail -f ' + '/opt/lnmp/nginx/logs/webUI_' + sys.argv[1] + "_greate_10" + ".log",
+                             stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
+    pid = popen.pid
+    print('Popen.pid:' + str(pid))
+    while True:
+        line = popen.stdout.readline().strip()
+        if line:
+            str_line = bytes.decode(line)
+            dict_line = eval(str_line)
+            uri = dict_line['uri']
+            kn_uri = str(uri).split('/')[-1]
+            if dict_line['upstream_response_time'] != '-' and kn_uri != "CheckLoginFirstStep" and kn_uri != "RegisterUser":
+                new_list = dict_line['upstream_response_time'].split(',')
 
-    headers = CONFIG['headers']
-    get_url = CONFIG['url'] + 'bb_122493'
+                print("**************")
+                print('这个不走登录和注册')
+                print("**************")
+                try:
+                    if len(new_list) >= 1:
+                        new_addr = dict_line['upstream_addr'].split(',')
+                        new_dict = dict(zip(new_addr, new_list))
+                        for k, v in new_dict.items():
+                            if float(v) > 50:
+                                f = k + ',' + uri
+                                obj.public(f)
+                                sleep(60)
+                    elif float(new_list[0]) > 50:
+                        obj.public(dict_line['upstream_addr'])
+                except Exception as e:
+                    print(e)
+                    continue
+            elif dict_line['upstream_response_time'] != '-' and kn_uri == "CheckLoginFirstStep" or kn_uri == "RegisterUser":
+                new_list = dict_line['upstream_response_time'].split(',')
+                try:
+                    if len(new_list) >= 1:
+                        new_addr = dict_line['upstream_addr'].split(',')
+                        new_dict = dict(zip(new_addr, new_list))
+                        print("+++++++++++++++")
+                        print('走登录和注册')
+                        print("+++++++++++++++")
+                        for k, v in new_dict.items():
+                            if float(v) > 20:
+                                f = k + ',' + uri
+                                obj.public(f)
+                    elif float(new_list[0]) > 20:
+                        obj.public(dict_line['upstream_addr'])
+                except Exception as e:
+                    print(e)
+                    continue
 
-    '''
-    https://apif.cqgame.cc/gameboy/player/balance/bb_122493?
-    :param request:
-    :return:
-    '''
-
-    r = requests.get(url=get_url, headers=headers)
 
 
-def Transfer_in(request):
-    pass
 
-
-def Transfer_out(request):
-    pass
-
-
-def Login_game(request):
-    pass
-
-
-def Get_game(request):
-    pass
-
-
-def Check_game(request):
-    pass
-
-
-def Create_game(request):
-    pass
-
-
-print(Tocken())
+stat_logs(sys.argv[1])
